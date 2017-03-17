@@ -3,7 +3,7 @@
 fluteA =
 { \key c \major \clef treble \compressFullBarRests \time 2/4
   \relative c''' {
-%{Intro%} c2\f~c4\fermata r8\fermata g\f
+%{Intro%} c2\f\fermata~c4 r8\fermata g\f
     \repeat volta 3
     { c4 g8. a16 | b4 e,8 e | a4  g8. f16 | g4 c,8 c
       | d4 d8. e16 | f4 f8.\cresc g16\! | a4 b8 c d4. g,8 | \mark \default e'4 d8. c16 d4 b8 g
@@ -14,5 +14,5 @@ fluteA =
     }
     \alternative %{consider modifying the alternates to start 1 measure later to eliminate duplication%}
     {{ c4 b8. a16 g4 c,8. c16 | c'4 b8. a16 g4.\> %{replaced tied eighth with dot %} %{ consider adding an eighth rest %} g8\f}
-     {c4 b8. a16 g4 c,8. c16 }} g'2^\markup{rit.} a4\< %{consider starting the crescendo on the half note%} b c2\!~c8 %{consider marking this fff %} %{consider fermata%} r r4 \bar "|."
+     {c4 b8. a16 g4 c,8. c16 }} g'2^\markup{\italic rit.} a4\< %{consider starting the crescendo on the half note%} b c2\!~c8 %{consider marking this fff %} %{consider fermata%} r r4 \bar "|."
   }}
