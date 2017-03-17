@@ -25,7 +25,8 @@ tagline = ##f
 \\layout {
 \\context {
 \\Score
-%\\remove "Bar_number_engraver"
+% definitely remove because different instruments (esp trumpet) have different numbers of bars
+\\remove "Bar_number_engraver"
 }
 indent = #0
 ragged-last = ##t
@@ -35,6 +36,7 @@ ragged-last = ##t
   line-width=$db{width}\\in
   top-margin=1\\in
 }
+piuF = \\markup {\\italic "piu" \\dynamic f }
 \\include "$part.ly"
 \\score {{
     \\tempo "Maestoso e cantabile" 4 = 76
