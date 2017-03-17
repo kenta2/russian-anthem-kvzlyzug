@@ -42,7 +42,7 @@ piuF = \\markup {\\italic "piu" \\dynamic f }
     \\tempo "Maestoso e cantabile" 4 = 76
 \\set Score.markFormatter = #format-mark-box-alphabet
 % boxes take up less space than circles
-\\override Score.SpacingSpanner #'packed-spacing = ##t
+% \\override Score.SpacingSpanner #'packed-spacing = ##t
 \\$part
 }
 \\layout {}
