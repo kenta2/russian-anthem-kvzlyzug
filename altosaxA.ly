@@ -1,5 +1,5 @@
 % name \markup {"E" \flat "Alto Saxophone 1"}
-% width 6
+% width 5.5
 altosaxA =
 { \key a \major \clef treble \compressFullBarRests \time 2/4
   \relative c'' {
