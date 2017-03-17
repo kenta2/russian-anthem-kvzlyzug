@@ -13,6 +13,6 @@ fluteA =
       | d-> c8 b a b| c4. a8 a2 |
     }
     \alternative %{consider modifying the alternates to start 1 measure later to eliminate duplication%}
-    {{ c4 b8. a16 g4 c,8. c16 | c'4 b8. a16 g4.\> %{replaced tied eighth with dot %} {% consider adding an eighth rest %} g8\f}
+    {{ c4 b8. a16 g4 c,8. c16 | c'4 b8. a16 g4.\> %{replaced tied eighth with dot %} %{ consider adding an eighth rest %} g8\f}
      {c4 b8. a16 g4 c,8. c16 }} g'2^\markup{rit.} a4\< %{consider starting the crescendo on the half note%} b c2\!~c8 %{consider marking this fff %} %{consider fermata%} r r4 \bar "|."
   }}
