@@ -1,4 +1,4 @@
-% name \markup {"F Horn 3"}
+% name \markup {"F Horn 4"}
 % width 5.5
 fhornD =
 { \key g \major \clef treble \compressFullBarRests \time 2/4
