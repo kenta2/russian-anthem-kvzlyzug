@@ -1,4 +1,4 @@
-% name \markup {B{\musicglyph #"accidentals.flat"} Clarinet 1}
+% name \markup {"B" \flat "Clarinet 1"}
 % width 6
 clarinetA =
 { \key d \major \clef treble \compressFullBarRests \time 2/4
