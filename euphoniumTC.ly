@@ -1,10 +1,10 @@
-% name "Euphonium"
+% name "Euphonium T.C."
 % width 6.9
 % In the original, this is called "B-flat Tenor" and is a B-flat part in treble clef.
 % It probably means "Tenor Tuba", a synonym for Euphonium, and not Tenor Horn which would be in E-flat.
 % Writing the euphonium part in B-flat treble clef is apparently a British brass band convention.
 % We will transpose it down to bass clef.
-euphonium=
+euphoniumTC=
 { \key d \major \clef treble \compressFullBarRests \time 2/4
   \relative c'' {
 %{Intro%} d2\f\fermata~d4 r8\fermata a\f
