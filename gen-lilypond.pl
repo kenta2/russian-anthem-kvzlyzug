@@ -1,5 +1,7 @@
 #! perl -w
 die unless defined($part=shift@ARGV);
+$git=`git describe --always`;
+chomp $git;
 open FI,"$part.ly" or die;
 while(<FI>){
     if(/^\s*%\s*(\S+)\s*(.*)/){
@@ -18,7 +20,7 @@ print << "EOF";
 \\header {
 title = "Russian Anthem"
 composer = "A.V. Alexandrov"
-subsubtitle = "/mit/marching-band/misc/music/sheet music/russian-anthem/v2"
+subsubtitle = "/mit/marching-band/misc/music/sheet music/russian-anthem/v2 git:$git"
 poet = $db{name}
 tagline = ##f
 }
