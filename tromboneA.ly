@@ -15,7 +15,7 @@ tromboneA =
        | \mark\default c4 b8. a16 g4 c8. c16 | c4 c b2\>
      }
      { r8.\! % hack to end the decresc in the first ending
-       a16 c4..\cresc c16 f4 
+       a16 c4..\cresc c16 f4
      }}
     | r8 c16\< c f8 f a2| \mark #3 \times 2/3 { r8 d,\ff d} \times 2/3 {f d f} g8 r r4
     | r8. g,16 c4.. e16 g4 | \times 2/3 {r8 d d} \times 2/3 {f d f} e8 e16 e e8 e | e4. e8 e2
