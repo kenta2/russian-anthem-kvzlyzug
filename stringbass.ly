@@ -9,7 +9,7 @@ stringbass =
     \repeat volta 3
     { | c2 e f e | d4 d c2\cresc c4\! b8 a
       | g r g4 | \mark\default c e g4. r8 | a,4 c e4. r8| f4 d e2| d4.. d16
-      | g8 f--[( e-- d--]) |\mark\default \time 4/4 c8->\f b c d e4 e | g, b8 d g g--[( f-- e--]) | a, e' a, b c4 c | e g,8 b e e[\> d g]
+      | g8 f--[( e-- d--]) |\mark\default \time 4/4 c8\f b c d e4 e | g, b8 d g g--[( f-- e--]) | a, e' a, b c4 c | e g,8 b e e[\> d g]
       | f4.\! c8 a'4.\cresc g8 | f4. c8 a' g f e | \mark\default d4.->\ff e16 f g4 g,4 | c8 b c e d c b a | b4.-> c16 d e4 e
       | a,8 b c e a4 g | \mark\default f d e e
     }
