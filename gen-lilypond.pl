@@ -57,6 +57,7 @@ shapeLVTie = #(define-music-function (parser location offsets) (list?)
 #})
 
 % works for the remainder of the voice
+% http://lilypond.1069038.n5.nabble.com/Default-length-of-laissezvibrer-ties-td10440.html
 mylv = #(define-music-function (parser location) ()
 #{
  \override LaissezVibrerTie #'control-points = #(alter-lv-tie-curve '(
