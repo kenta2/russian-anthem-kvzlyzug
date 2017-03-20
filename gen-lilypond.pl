@@ -55,6 +55,16 @@ shapeLVTie = #(define-music-function (parser location offsets) (list?)
 #{
  \once \override LaissezVibrerTie #'control-points = #(alter-lv-tie-curve offsets)
 #})
+
+% works for the remainder of the voice
+mylv = #(define-music-function (parser location) ()
+#{
+ \override LaissezVibrerTie #'control-points = #(alter-lv-tie-curve '(
+0 0.75
+0.6 3
+1.6 2
+1.75 1.5))
+#})
 EOF
     print <<"EOF";
 \\include "$part.ly"
