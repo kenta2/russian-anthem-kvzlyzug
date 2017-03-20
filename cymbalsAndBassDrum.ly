@@ -17,7 +17,7 @@ cymbalsAndBassDrum= \drummode {
     \alternative
   { { | \mark\default % this is one of the rare cases where the first measure of D is different between the repeats
 R1*2 }
-   { | << { gui4 } \\ {gui4 } >> r4 r2 } }
+   { |\mark #4  << { gui4 } \\ {gui4 } >> r4 r2 } }
  | << { \mylv gui2 gui4 gui | gui2\laissezVibrer\fermata r2 |} \\ { gui4_\markup{\italic rit.} r gui gui | gui2:32~gui8 r r4| } >>  \bar "|."
   }
 
