@@ -40,14 +40,31 @@ ragged-last = ##t
 }
 piuF = \\markup {\\italic "piu" \\dynamic f }
 \\include "$part.ly"
-\\score {{
-    \\tempo "Maestoso e cantabile" 4 = 76
-\\set Score.markFormatter = #format-mark-box-alphabet
-% boxes take up less space than circles
-% \\override Score.SpacingSpanner #'packed-spacing = ##t
-\\$part
+\\score {
+EOF
+    if($db{staff} eq 'percussion'){
+        print << 'EOF'
+\new DrumStaff \with { drumStyleTable = #percussion-style
+\override StaffSymbol #'line-count = #1
+} {
+EOF
+} else {
+    print '\new Staff {'
 }
-\\layout {}
-%\\midi {} %use timidity to play the midi file
+print "\n";
+print << 'EOF';
+% boxes take up less space than circles
+\set Score.markFormatter = #format-mark-box-numbers
+% Numbers match the original.  We do not need to worry about colliding with measure numbers because different parts have different number of measures
+%\override Score.SpacingSpanner #'packed-spacing = ##t
+\time 2/4
+\tempo "Maestoso e cantabile" 4 = 76
+\compressFullBarRests
+EOF
+print "\\$part\n";
+print << 'EOF';
+}
+\layout {}
+%\midi {} %use timidity to play the midi file
 }
 EOF
