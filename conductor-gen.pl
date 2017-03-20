@@ -40,8 +40,8 @@ tubaB
 "piccolo",
 "clarinetA",
 "fluteA",
-"oboe",
 "cornetA",
+"cornetB",
 ],[
 "trumpetA",
 "trumpetB",
@@ -49,18 +49,19 @@ tubaB
 "tromboneB",
 ],[
 "fhornA",
-"fhornB",
 "fhornC",
-"fhornD",
+"fhornB",
 ],[
 "clarinetB",
-"clarinetC",
-"cornetB",
-"cornetC",
 "fluteB",
-],[
+"cornetC",
 "altosaxA",
+],[
+"oboe",
+"fhornD",
+"clarinetC",
 "altosaxB",
+],[
 "tenorsax",
 "euphonium",
 "baritoneBC",
@@ -163,12 +164,24 @@ for($g=0;$g<@og-1;++$g){ #skip the last group
 \\new StaffGroup = "StaffGroup_$g" <<
 EOF
 for(@{$og[$g]}){
+    die unless defined($db{$_});
+    #print STDERR "I $_";    for(keys%{$db{$_}}) {        print STDERR " $_";    }    print STDERR "\n";
+    if($db{$_}->{short}){
+        $short=$db{$_}->{short};
+    } else {
+        $short=$_;
+    }
+    if($db{$_}->{similar}){
+        $transpose='\transpose '.$db{$_}->{similar};
+    } else {
+        $transpose='';
+    }
     print << "EOF";
 \\new Staff = "Staff_$_" {
 \\set Staff.instrumentName=#"$_"
-\\set Staff.shortInstrumentName=#"$_"
+\\set Staff.shortInstrumentName=#"$short"
 \\time 2/4
-\\$_
+$transpose \\$_
 }
 EOF
 }

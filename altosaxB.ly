@@ -1,5 +1,6 @@
 % DB name \markup {"E" \flat "Alto Saxophone 2"}
 % DB width 5.5
+% DB similar c' ees
 altosaxB =
 { \key a \major \clef treble
   \relative c'' {

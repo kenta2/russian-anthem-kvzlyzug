@@ -1,6 +1,8 @@
 % DB name "Piccolo"
 % this part is taken from the symphony orchestra score
 % DB width 6
+% DB short Pc
+% DB similar c' c
 piccolo =
 { \key c \major \clef treble
   \relative c'' {

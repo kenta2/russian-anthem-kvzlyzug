@@ -3,6 +3,7 @@
 % DB width 6.9
 
 % this is the lower part of the cornet 1 part
+% DB similar c' bes
 cornetB=
 { \key d \major \clef treble
   \relative c'' {

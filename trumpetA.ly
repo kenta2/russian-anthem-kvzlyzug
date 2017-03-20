@@ -1,5 +1,6 @@
 % DB name \markup {"B" \flat "Trumpet 1"}
 % DB width 6.9
+% DB similar c' bes
 trumpetA =
 { \key d \major \clef treble
   \relative c'' {
