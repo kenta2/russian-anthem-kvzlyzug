@@ -14,7 +14,7 @@ tenorsax =
 
     }
     \alternative
-    % consider attaching the end of the descresc to the rest
+    % consider attaching the end of the decresc to the rest
     {{  | d4 d8.\> d16 cis4\!  r4}
      {  | cis2_\markup{\italic rit.} d4\< cis}} | d2\!\fermata~d8 r r4 \bar "|."
   }}
