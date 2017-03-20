@@ -7,11 +7,11 @@ tenorsax =
 %{Intro%} d2\f\fermata~d4 r4\fermata
     \repeat volta 3
     { d4\f a8. b16 | cis8 fis,[( a cis]) | b4 b8. b16 | a8 d,[( fis a])
-      | g4 g8. b16| b4 b8.\cresc e16\! | e4 a,8 b | cis4 cis | \mark\default d8 fis,[( a b]) | cis4. r8
+      | g4 g8. b16| b4 b8.\cresc e16\! | e4 a,8 b | cis4 cis | \mark #1 d8 fis,[( a b]) | cis4. r8
       | b d,[(fis gis]) | a4. r8 | b b[(d, g]) | a4. r8 | d2(|cis8)cis--[(\< d-- e--])
-      | \mark\default \time 4/4 fis2->\ff e8(d) cis d | e4. cis8 cis cis--[( d-- e--]) | d2-> cis8(b)a b| cis4. a8 a r r4
-      | g2\mf b\cresc | d4 b8 d g2 | \mark\default g8->(\ff b,) d g fis( e) d e | fis4. d8 d2 | e8->( g,) b e d(cis)b cis | d4. b8 b2
-      | \mark\default d4 d8. d16 d4 a
+      | \mark #2 \time 4/4 fis2->\ff e8(d) cis d | e4. cis8 cis cis--[( d-- e--]) | d2-> cis8(b)a b| cis4. a8 a r r4
+      | g2\mf b\cresc | d4 b8 d g2 | \mark #3 g8->(\ff b,) d g fis( e) d e | fis4. d8 d2 | e8->( g,) b e d(cis)b cis | d4. b8 b2
+      | \mark #4 d4 d8. d16 d4 a
 
     }
     \alternative
