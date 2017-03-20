@@ -4,7 +4,7 @@
 % width 6
 % staff percussion
 cymbalsAndBassDrum= \drummode {
-%{Intro%} << { \mylv gui2\laissezVibrer\f\fermata } \\ { gui4 r } >> | r2\fermata
+%{Intro%} << { \mylv gui2\laissezVibrer\f\fermata } \\ { gui4 r } >> | r1\fermata
     \repeat volta 3
     { | << { \mylv gui4\laissezVibrer\f } \\ { gui4 } >> r4 | R2*7
       | \mark\default << { \mylv gui4\laissezVibrer } \\ { gui4 } >> r4 | R2*7
@@ -17,8 +17,8 @@ cymbalsAndBassDrum= \drummode {
     \alternative
   { { | \mark\default % this is one of the rare cases where the first measure of D is different between the repeats
 R1*2 }
-   { | \mark\default << { gui4 } \\ {gui4 } >> r4 r2 } }
- | << { \mylv gui2 gui4 gui4 | gui2\laissezVibrer} \\ << { gui4 r gui gui gui2:32~gui8 r8 r4} >> \bar "|."
+   { | << { gui4 } \\ {gui4 } >> r4 r2 } }
+ | << { \mylv gui2 gui4 gui | gui2\laissezVibrer\fermata r2 |} \\ { gui4_\markup{\italic rit.} r gui gui | gui2:32~gui8 r r4| } >>  \bar "|."
   }
 
 
