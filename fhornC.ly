@@ -1,6 +1,7 @@
 % DB name \markup {"F Horn 3"}
 % DB width 7
 % DB similar c f
+% DB size 26
 fhornC =
 { \key g \major \clef treble
   \relative c'' {

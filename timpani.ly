@@ -1,5 +1,7 @@
 % DB name "Timpani"
 % DB width 6
+% nopack 1
+% DB size 26
 timpani =
 { \key c \major \clef "bass"
   \relative c {

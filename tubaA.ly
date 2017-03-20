@@ -2,6 +2,8 @@
 % originally this was the Bass 1 part
 % this part is probably for a smaller bass tuba (pitched in F or E-flat) not common in American school bands, where the contrabass BB-flat tuba and BB-flat sousaphone dominate
 % DB width 6
+% DB size 26
+
 tubaA =
 { \key c \major \clef "bass"
   \relative c {

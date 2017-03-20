@@ -4,6 +4,8 @@
 % DB width 6
 % DB staff percussion
 % DB nopack 1
+% DB size 26
+
 cymbalsAndBassDrum= \drummode {
 %{Intro%} << { \mylv gui2\laissezVibrer\f\fermata } \\ { gui4 r } >> | r1\fermata
     \repeat volta 3

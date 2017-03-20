@@ -89,9 +89,11 @@ print << 'EOF';
 % Lilypond
 % 2.16.2 is currently on Athena
 \version "2.16.2"
-#(set-default-paper-size "letter")
+%#(set-default-paper-size "letter")
 piuF = \markup {\italic "piu" \dynamic f }
 invB = { \hideNotes \relative { b'1 } \unHideNotes }
+#(set! paper-alist (cons '("mysize" . (cons (* 8.5 in) (* 6.1 in))) paper-alist))
+    #(set-default-paper-size "mysize")
 invD = {\hideNotes \relative {d,1}\unHideNotes }
 #(define ((alter-lv-tie-curve offsets) grob)
    (let ((coords (ly:semi-tie::calc-control-points grob)))
@@ -151,9 +153,9 @@ EOF
     print << 'EOF';
         \paper {
   system-system-spacing = #'(( basic-distance . 0.1 ) (padding . 0.5))
-  line-width=6\in
+  line-width=6.8\in
   print-page-number = ##f
-  %top-margin=1\in
+  top-margin=1.1\in
         } % end paper
 EOF
 print << 'EOF';

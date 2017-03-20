@@ -1,5 +1,6 @@
 % DB name "Trombone 1"
 % DB width 6
+% DB size 20
 tromboneA =
 { \key c \major \clef "bass"
   \relative c' {

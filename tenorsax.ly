@@ -1,6 +1,7 @@
 % DB name \markup {"B" \flat "Tenor Saxophone"}
 % DB width 5.5
 % DB similar c' bes
+% DB size 26
 tenorsax =
 { \key d \major \clef treble
   \relative c'' {
