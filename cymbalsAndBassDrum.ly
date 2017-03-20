@@ -3,6 +3,7 @@
 % We do not mimic it, instead putting it in the center where it ought to be.
 % DB width 6
 % DB staff percussion
+% DB nopack 1
 cymbalsAndBassDrum= \drummode {
 %{Intro%} << { \mylv gui2\laissezVibrer\f\fermata } \\ { gui4 r } >> | r1\fermata
     \repeat volta 3

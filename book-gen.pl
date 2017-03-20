@@ -63,10 +63,10 @@ tromboneA
 tromboneB
 tromboneC
 
-baritone
-baritoneBC
 euphoniumTC
 euphonium
+baritone
+baritoneBC
 tubaA
 tubaB
 stringbass
@@ -91,6 +91,8 @@ print << 'EOF';
 \version "2.16.2"
 #(set-default-paper-size "letter")
 piuF = \markup {\italic "piu" \dynamic f }
+invB = { \hideNotes \relative { b'1 } \unHideNotes }
+invD = {\hideNotes \relative {d,1}\unHideNotes }
 #(define ((alter-lv-tie-curve offsets) grob)
    (let ((coords (ly:semi-tie::calc-control-points grob)))
      (define (add-offsets cs os)

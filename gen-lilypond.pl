@@ -41,6 +41,8 @@ ragged-last = ##t
 piuF = \\markup {\\italic "piu" \\dynamic f }
 EOF
     print << 'EOF';
+invB = { \hideNotes \relative { b'1 } \unHideNotes }
+invD = {\hideNotes \relative {d,1}\unHideNotes }
 #(define ((alter-lv-tie-curve offsets) grob)
    (let ((coords (ly:semi-tie::calc-control-points grob)))
      (define (add-offsets cs os)
