@@ -39,6 +39,24 @@ ragged-last = ##t
   top-margin=1\\in
 }
 piuF = \\markup {\\italic "piu" \\dynamic f }
+EOF
+    print << 'EOF';
+#(define ((alter-lv-tie-curve offsets) grob)
+   (let ((coords (ly:semi-tie::calc-control-points grob)))
+     (define (add-offsets cs os)
+      (if (null? cs)
+       '()
+        (cons
+         (cons (+ (caar cs) (car os))
+            (+ (cdar cs) (cadr os)))
+         (add-offsets (cdr cs) (cddr os)))))
+ (add-offsets coords offsets)))
+shapeLVTie = #(define-music-function (parser location offsets) (list?)
+#{
+ \once \override LaissezVibrerTie #'control-points = #(alter-lv-tie-curve offsets)
+#})
+EOF
+    print <<"EOF";
 \\include "$part.ly"
 \\score {
 EOF
