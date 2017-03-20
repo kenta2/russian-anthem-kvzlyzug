@@ -1,7 +1,7 @@
 % name \markup {"E" \flat "Alto Saxophone 2"}
 % width 5.5
 altosaxB =
-{ \key a \major \clef treble \compressFullBarRests \time 2/4
+{ \key a \major \clef treble
   \relative c'' {
 %{Intro%} cis2\f\fermata~cis4 r4\fermata
     \repeat volta 3

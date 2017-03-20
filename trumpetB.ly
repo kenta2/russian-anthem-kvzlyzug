@@ -1,7 +1,7 @@
 % name \markup {"B" \flat "Trumpet 2"}
-% width 4.5
+% width 6
 trumpetB =
-{ \key d \major \clef treble \compressFullBarRests \time 2/4
+{ \key d \major \clef treble
   \relative c'' {
 %{Intro%} a2\f\fermata~a4 r8\fermata a\f
     \repeat volta 3

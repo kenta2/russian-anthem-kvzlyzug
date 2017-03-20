@@ -1,7 +1,7 @@
 % name "Oboe"
 % width 6
 oboe =
-{ \key c \major \clef treble \compressFullBarRests \time 2/4
+{ \key c \major \clef treble
   \relative c'' {
 %{Intro%} e2\f\fermata~e4 r8\fermata g\f
     \repeat volta 3

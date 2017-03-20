@@ -5,5 +5,5 @@
 % Writing the euphonium part in B-flat treble clef is apparently a British brass band convention.
 \include "euphonium-music.ly"
 euphoniumTC=
-{ \key d \major \clef treble \compressFullBarRests \time 2/4
+{ \key d \major \clef treble
 \euphoniumMusic }

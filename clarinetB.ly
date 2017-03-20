@@ -1,7 +1,7 @@
 % name \markup {"B" \flat "Clarinet 2"}
 % width 6
 clarinetB =
-{ \key d \major \clef treble \compressFullBarRests \time 2/4
+{ \key d \major \clef treble
   \relative c''' {
 %{Intro%} a2\f\fermata~a4 r8\fermata a\f
     \repeat volta 3

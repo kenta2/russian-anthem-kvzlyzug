@@ -2,7 +2,7 @@
 % width 6.9
 % this is originally the cornet 2 part, but is 3 here because cornet 1 is split
 cornetC=
-{ \key d \major \clef treble \compressFullBarRests \time 2/4
+{ \key d \major \clef treble
   \relative c' {
 %{Intro%} fis2\f\fermata~fis4 r8\fermata a\f
     \repeat volta 3

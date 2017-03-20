@@ -1,7 +1,7 @@
 % name "Trombone 1"
 % width 6
 tromboneA =
-{ \key c \major \clef "bass" \compressFullBarRests \time 2/4
+{ \key c \major \clef "bass"
   \relative c' {
 %{Intro%} g2\f\fermata~g4 r4\fermata
     \repeat volta 3

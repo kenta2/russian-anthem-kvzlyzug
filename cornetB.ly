@@ -4,7 +4,7 @@
 
 % this is the lower part of the cornet 1 part
 cornetB=
-{ \key d \major \clef treble \compressFullBarRests \time 2/4
+{ \key d \major \clef treble
   \relative c'' {
 %{Intro%} a2\f\fermata~a4 r8\fermata a\f
     \repeat volta 3

@@ -1,7 +1,7 @@
 % name \markup {"B" \flat "Tenor Saxophone"}
 % width 5.5
 tenorsax =
-{ \key d \major \clef treble \compressFullBarRests \time 2/4
+{ \key d \major \clef treble
   \relative c'' {
 %{Intro%} d2\f\fermata~d4 r4\fermata
     \repeat volta 3

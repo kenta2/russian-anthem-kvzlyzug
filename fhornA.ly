@@ -1,7 +1,7 @@
 % name \markup {"F Horn 1"}
 % width 5.5
 fhornA =
-{ \key g \major \clef treble \compressFullBarRests \time 2/4
+{ \key g \major \clef treble
   \relative c'' {
 %{Intro%} d2\f\fermata~d4 r4\fermata
     \repeat volta 3

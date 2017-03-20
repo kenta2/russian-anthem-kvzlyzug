@@ -5,16 +5,16 @@ cornetAtop = \relative c'' { d2\f ~ d4 r8 a g'2-> fis8( e) d e}
 cornetAbot = \relative c'' { a2\f ~ a4 r8 a d2-> cis4 b8 cis8}
 
 % this results in opposite stems but two forte marks
-%cornetA = { \key d \major \clef treble \compressFullBarRests \time 2/4 << { \cornetAtop } \\ { \cornetAbot } >> }
+%cornetA = { \key d \major \clef treble << { \cornetAtop } \\ { \cornetAbot } >> }
 
 % this results in 1 forte, but doubled notes (a) and the quarter note c becomes an eighth
-%cornetA = { \key d \major \clef treble \compressFullBarRests \time 2/4 << { \cornetAtop }  { \cornetAbot } >> }
+%cornetA = { \key d \major \clef treble << { \cornetAtop }  { \cornetAbot } >> }
 
 % we want to be able to separate the parts if necessary
 
 % lets just do the two parts separately
 cornetA=
-{ \key d \major \clef treble \compressFullBarRests \time 2/4
+{ \key d \major \clef treble
   \relative c'' {
 %{Intro%} d2\f\fermata~d4 r8\fermata a\f
     \repeat volta 3

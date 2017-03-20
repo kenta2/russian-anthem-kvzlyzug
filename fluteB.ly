@@ -1,7 +1,7 @@
 % name "Flute 2"
 % width 6
 fluteB =
-{ \key c \major \clef treble \compressFullBarRests \time 2/4
+{ \key c \major \clef treble
   \relative c''' {
 %{Intro%} g2\f\fermata~g4 r8\fermata g\f
     \repeat volta 3

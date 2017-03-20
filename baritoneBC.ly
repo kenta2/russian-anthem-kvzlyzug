@@ -2,5 +2,5 @@
 % width 6.9
 \include "baritone-music.ly"
 baritoneBC=
-{ \key c \major \clef "bass" \compressFullBarRests \time 2/4
+{ \key c \major \clef "bass"
 \transpose c'' bes \baritoneMusic }

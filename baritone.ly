@@ -2,5 +2,5 @@
 % width 6.9
 \include "baritone-music.ly"
 baritone=
-{ \key d \major \clef treble \compressFullBarRests \time 2/4
+{ \key d \major \clef treble
 \baritoneMusic }

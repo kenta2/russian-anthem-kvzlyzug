@@ -3,7 +3,7 @@
 % string bass can go down to an e, so transponsing down a whole step will not be a problem
 % width 6
 stringbass =
-{ \key c \major \clef "bass" \compressFullBarRests \time 2/4
+{ \key c \major \clef "bass"
   \relative c {
 %{Intro%} c2\f\fermata~c4 r4\fermata
     \repeat volta 3

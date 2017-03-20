@@ -1,7 +1,7 @@
 % name "Timpani"
 % width 6
 timpani =
-{ \key c \major \clef "bass" \compressFullBarRests \time 2/4
+{ \key c \major \clef "bass"
   \relative c {
 %{Intro%} c2:32\f\fermata~c4 r4\fermata
     \repeat volta 3

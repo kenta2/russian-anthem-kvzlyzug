@@ -2,7 +2,7 @@
 % Doubles Tuba / String bass a lot, so this might be a bass trombone part
 % width 6
 tromboneC =
-{ \key c \major \clef "bass" \compressFullBarRests \time 2/4
+{ \key c \major \clef "bass"
   \relative c {
 %{Intro%} c2\f\fermata~c4 r4\fermata
     \repeat volta 3

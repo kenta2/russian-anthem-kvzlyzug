@@ -6,5 +6,5 @@
 % We will transpose it down to bass clef.
 \include "euphonium-music.ly"
 euphonium=
-{ \key c \major \clef "bass" \compressFullBarRests \time 2/4
+{ \key c \major \clef "bass"
 \transpose c'' bes \euphoniumMusic }
