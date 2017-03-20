@@ -157,9 +157,11 @@ EOF
 print << 'EOF';
         \score {
 EOF
+    $drum=0;
     if(defined$db{$_}->{staff}){
         if($db{$_}->{staff} eq 'percussion'){
-        print << 'EOF'
+            $drum=1;
+            print << 'EOF'
 \new DrumStaff \with { drumStyleTable = #percussion-style
 \override StaffSymbol #'line-count = #1
 } {
@@ -184,6 +186,11 @@ EOF
 \tempo "Maestoso e cantabile" 4 = 76
 \compressFullBarRests
 EOF
+unless($drum){
+    print << 'EOF';
+\transpose c' bes
+EOF
+}
 print "\\$_\n";
 print << 'EOF';
 } % end staff
@@ -196,6 +203,13 @@ print << 'EOF';
               }
               indent = #0
               ragged-last = ##t
+EOF
+if(defined$db{$_}->{size}){
+    print << "EOF";
+#(layout-set-staff-size $db{$_}->{size})
+EOF
+}
+print << 'EOF';
             } % end layout
         } % end score
 EOF
