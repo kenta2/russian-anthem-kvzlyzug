@@ -1,5 +1,5 @@
-% name "Flute 1"
-% width 6
+% DB name "Flute 1"
+% DB width 6
 fluteA =
 { \key c \major \clef treble
   \relative c''' {

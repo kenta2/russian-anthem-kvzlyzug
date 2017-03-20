@@ -1,6 +1,6 @@
-% name "Piccolo"
+% DB name "Piccolo"
 % this part is taken from the symphony orchestra score
-% width 6
+% DB width 6
 piccolo =
 { \key c \major \clef treble
   \relative c'' {

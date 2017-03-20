@@ -1,6 +1,6 @@
-% name "Snare Drum"
-% width 6
-% staff percussion
+% DB name "Snare Drum"
+% DB width 6
+% DB staff percussion
 snaredrum = \drummode {
 %{Intro%} gui2:32\f\fermata~gui4 r4\fermata
     \repeat volta 3

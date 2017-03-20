@@ -1,5 +1,5 @@
-% name \markup {"B" \flat "Trumpet 2"}
-% width 6
+% DB name \markup {"B" \flat "Trumpet 2"}
+% DB width 6
 trumpetB =
 { \key d \major \clef treble
   \relative c'' {

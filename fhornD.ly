@@ -1,5 +1,5 @@
-% name \markup {"F Horn 4"}
-% width 5.5
+% DB name \markup {"F Horn 4"}
+% DB width 5.5
 fhornD =
 { \key g \major \clef treble
   \relative c' {

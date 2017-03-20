@@ -1,8 +1,8 @@
-% name "Cymbals & Bass Drum"
+% DB name "Cymbals & Bass Drum"
 % Original has the convention of a shared quarter rest is written in the bottom of the staff.
 % We do not mimic it, instead putting it in the center where it ought to be.
-% width 6
-% staff percussion
+% DB width 6
+% DB staff percussion
 cymbalsAndBassDrum= \drummode {
 %{Intro%} << { \mylv gui2\laissezVibrer\f\fermata } \\ { gui4 r } >> | r1\fermata
     \repeat volta 3

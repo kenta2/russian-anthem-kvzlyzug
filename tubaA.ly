@@ -1,7 +1,7 @@
-% name \markup {"Tuba (F or E"\flat")"}
+% DB name \markup {"Tuba (F or E"\flat")"}
 % originally this was the Bass 1 part
 % this part is probably for a smaller bass tuba (pitched in F or E-flat) not common in American school bands, where the contrabass BB-flat tuba and BB-flat sousaphone dominate
-% width 6
+% DB width 6
 tubaA =
 { \key c \major \clef "bass"
   \relative c {

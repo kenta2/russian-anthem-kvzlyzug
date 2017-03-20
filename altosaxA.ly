@@ -1,5 +1,5 @@
-% name \markup {"E" \flat "Alto Saxophone 1"}
-% width 5.5
+% DB name \markup {"E" \flat "Alto Saxophone 1"}
+% DB width 5.5
 altosaxA =
 { \key a \major \clef treble
   \relative c'' {

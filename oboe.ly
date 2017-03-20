@@ -1,5 +1,5 @@
-% name "Oboe"
-% width 6
+% DB name "Oboe"
+% DB width 6
 oboe =
 { \key c \major \clef treble
   \relative c'' {

@@ -1,6 +1,6 @@
-% name \markup {"B" \flat "Cornet 2"}
+% DB name \markup {"B" \flat "Cornet 2"}
 
-% width 6.9
+% DB width 6.9
 
 % this is the lower part of the cornet 1 part
 cornetB=

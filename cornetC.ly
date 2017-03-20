@@ -1,5 +1,5 @@
-% name \markup {"B" \flat "Cornet 3"}
-% width 6.9
+% DB name \markup {"B" \flat "Cornet 3"}
+% DB width 6.9
 % this is originally the cornet 2 part, but is 3 here because cornet 1 is split
 cornetC=
 { \key d \major \clef treble

@@ -1,6 +1,6 @@
-% name "Trombone 3"
+% DB name "Trombone 3"
 % Doubles Tuba / String bass a lot, so this might be a bass trombone part
-% width 6
+% DB width 6
 tromboneC =
 { \key c \major \clef "bass"
   \relative c {
