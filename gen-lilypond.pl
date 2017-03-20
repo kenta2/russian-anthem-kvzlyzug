@@ -42,7 +42,7 @@ piuF = \\markup {\\italic "piu" \\dynamic f }
 \\include "$part.ly"
 \\score {
 EOF
-    if($db{staff} eq 'percussion'){
+    if(defined$db{staff} and $db{staff} eq 'percussion'){
         print << 'EOF'
 \new DrumStaff \with { drumStyleTable = #percussion-style
 \override StaffSymbol #'line-count = #1
