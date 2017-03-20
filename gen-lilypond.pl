@@ -4,7 +4,7 @@ $git=`git describe --always`;
 chomp $git;
 open FI,"$part.ly" or die;
 while(<FI>){
-    if(/^\s*%\s*(\S+)\s*(.*)/){
+    if(/^\s*%\s*DB\s+(\S+)\s*(.*)/){
 	$db{$1}=$2;
     } else {
 	last;
@@ -71,12 +71,14 @@ EOF
 \\include "$part.ly"
 \\score {
 EOF
-    if(defined$db{staff} and $db{staff} eq 'percussion'){
+    if(defined$db{staff}){
+        if($db{staff} eq 'percussion'){
         print << 'EOF'
 \new DrumStaff \with { drumStyleTable = #percussion-style
 \override StaffSymbol #'line-count = #1
 } {
 EOF
+} else { die "unknown DB staff '$db{staff}'" }
 } else {
     print '\new Staff {'
 }
@@ -85,7 +87,13 @@ print << 'EOF';
 % boxes take up less space than circles
 \set Score.markFormatter = #format-mark-box-numbers
 % Numbers match the original.  We do not need to worry about colliding with measure numbers because different parts have different number of measures
-%\override Score.SpacingSpanner #'packed-spacing = ##t
+EOF
+unless($db{nopack}){
+print << 'EOF';
+\override Score.SpacingSpanner #'packed-spacing = ##t
+EOF
+}
+        print <<'EOF';
 \time 2/4
 \tempo "Maestoso e cantabile" 4 = 76
 \compressFullBarRests
