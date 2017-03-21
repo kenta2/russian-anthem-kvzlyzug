@@ -128,8 +128,9 @@ ragged-last = ##t
   }
 }
 
-%this overrides the defauly paper size set in defs.ly
-#(set! paper-alist (cons '("csize" . (cons (* 17 in) (* 24 in))) paper-alist))
+% This overrides the default paper size set in defs.ly.
+% Same aspect ratio US Letter.
+#(set! paper-alist (cons '("csize" . (cons (* ( / 24 11) 8.5 in) (* 24 in))) paper-alist))
     #(set-default-paper-size "csize")
 \paper {
   system-system-spacing = #'(( basic-distance . 0.1 ) (padding . 0.5))
@@ -144,7 +145,8 @@ EOF
 EOF
 }
 print << 'EOF';
-\score { <<
+\score {
+ <<
 EOF
 for($g=0;$g<@og-1;++$g){ #skip the last group
     print << "EOF";
@@ -168,6 +170,7 @@ for(@{$og[$g]}){
 \\set Staff.instrumentName=#"$_"
 \\set Staff.shortInstrumentName=#"$short"
 \\time 2/4
+\\set Score.markFormatter = #format-mark-numbers
 $transpose \\$_
 }
 EOF
