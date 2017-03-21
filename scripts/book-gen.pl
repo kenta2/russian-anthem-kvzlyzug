@@ -1,41 +1,6 @@
 #! perl -w
 $git=`git describe --always`;
 chomp $git;
-@originalparts=qw(
-altosaxA
-altosaxB
-baritone
-baritoneBC
-bassoon
-clarinetA
-clarinetB
-clarinetC
-cornetA
-cornetB
-cornetC
-cymbalsAndBassDrum
-euphonium
-euphoniumTC
-fhornA
-fhornB
-fhornC
-fhornD
-fluteA
-fluteB
-oboe
-piccolo
-snaredrum
-stringbass
-tenorsax
-timpani
-tromboneA
-tromboneB
-tromboneC
-trumpetA
-trumpetB
-tubaA
-tubaB
-);
 
 @score_order=qw(
 piccolo
@@ -79,9 +44,16 @@ if(@ARGV){
     @parts_to_do=@ARGV;
 } else {
     @parts_to_do=@score_order;
+    $myhash{$_}=1 for(@score_order);
+    for(<*.ly>){
+        s/\.ly$// or die;
+        next if /-(part|music)$/;
+        next if $_ eq 'all-parts';
+        print STDERR "WARNING: $_ not present in score_order" unless $myhash{$_};
+    }
 }
 
-for$file(@originalparts){
+for$file(@score_order){
     open FI,"$file.ly" or die;
     while(<FI>){
         chomp;
