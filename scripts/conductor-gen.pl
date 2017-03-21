@@ -1,4 +1,9 @@
 #! perl -w
+
+#half hearted attempt at a conductor's score, lacking percussion.
+#mostly for checking for consistency between the parts.  everything is transposed to concert C.
+# things obviously go wrong with the trumpet / trombone parts which start their repeat alternate endings in different spots.
+
 @originalparts=qw(
 altosaxA
 altosaxB
@@ -117,39 +122,17 @@ indent = 1\in
 short-indent = 1\in
 ragged-last = ##t
 }
-#(set! paper-alist (cons '("mysize" . (cons (* 17 in) (* 22 in))) paper-alist))
+\include "include/defs.ly"
+
+%this overrides the defauly paper size set in defs.ly
+#(set! paper-alist (cons '("csize" . (cons (* 17 in) (* 24 in))) paper-alist))
+    #(set-default-paper-size "csize")
 \paper {
-  #(set-paper-size "mysize")
   system-system-spacing = #'(( basic-distance . 0.1 ) (padding . 0.5))
   line-width=15.5\in
 %  top-margin=1\in
 }
-piuF = \markup {\italic "piu" \dynamic f }
-#(define ((alter-lv-tie-curve offsets) grob)
-   (let ((coords (ly:semi-tie::calc-control-points grob)))
-     (define (add-offsets cs os)
-      (if (null? cs)
-       '()
-        (cons
-         (cons (+ (caar cs) (car os))
-            (+ (cdar cs) (cadr os)))
-         (add-offsets (cdr cs) (cddr os)))))
- (add-offsets coords offsets)))
-shapeLVTie = #(define-music-function (parser location offsets) (list?)
-#{
- \once \override LaissezVibrerTie #'control-points = #(alter-lv-tie-curve offsets)
-#})
 
-% works for the remainder of the voice
-% http://lilypond.1069038.n5.nabble.com/Default-length-of-laissezvibrer-ties-td10440.html
-mylv = #(define-music-function (parser location) ()
-#{
- \override LaissezVibrerTie #'control-points = #(alter-lv-tie-curve '(
-0 0.75
-0.6 3
-1.6 2
-1.75 1.5))
-#})
 EOF
     for(@originalparts){
         print << "EOF";
