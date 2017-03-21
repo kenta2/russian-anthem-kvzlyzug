@@ -112,6 +112,7 @@ EOF
     print << 'EOF';
 tagline = ##f
 }
+\include "include/defs.ly"
 \layout {
 \context {
 \Score
@@ -121,8 +122,11 @@ tagline = ##f
 indent = 1\in
 short-indent = 1\in
 ragged-last = ##t
+  \context {
+    \Voice
+        \override Script #'stencil = #bold-tenuto-script-stencil
+  }
 }
-\include "include/defs.ly"
 
 %this overrides the defauly paper size set in defs.ly
 #(set! paper-alist (cons '("csize" . (cons (* 17 in) (* 24 in))) paper-alist))

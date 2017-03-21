@@ -29,3 +29,34 @@ mylv = #(define-music-function (parser location) ()
 1.6 2
 1.75 1.5))
 #})
+
+%% http://lsr.di.unimi.it/LSR/Item?id=858
+
+#(define (bold-tenuto-script-stencil grob)
+   (let*
+     ((scale (magstep (ly:grob-property grob 'font-size 0)))
+      (dir (ly:grob-property grob 'direction 0))
+      (script-stencil (ly:grob-property grob 'script-stencil))
+      (tenuto-width 0.25) ;;; alter this value to modify the line width of the tenuto
+      (tenuto-length 1.5) ;;; alter this value to modify the line length of the tenuto
+      (tl (* -0.5 tenuto-length))
+      (tr (* 0.5 tenuto-length))
+      (ten-sil (make-line-stencil (* scale tenuto-width) (* scale tl) 0.0 (* scale tr) 0.0))
+      (dot-sil (make-circle-stencil (* scale 0.15) (* scale 0.1) #t))
+      (por-sil (ly:stencil-combine-at-edge
+                  ten-sil
+                  Y
+                  (if (= dir 0)
+                    -1
+                    (* -1 dir))
+                  dot-sil
+                  (* scale 0.4))))
+   (if (and (pair? script-stencil) (pair? (cdr script-stencil)))
+     (let* ((rv (cdr script-stencil))
+            (script-type (if (<= dir 0) (car rv) (cdr rv))))
+        (cond ((equal? script-type "tenuto")
+               ten-sil)
+              ((or (equal? script-type "uportato") (equal? script-type "dportato"))
+               por-sil)
+              (else (ly:script-interface::print grob))))
+     (ly:script-interface::print grob))))

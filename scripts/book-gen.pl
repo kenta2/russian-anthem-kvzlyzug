@@ -68,6 +68,12 @@ print << 'EOF';
 % 2.16.2 is currently on Athena
 \version "2.16.2"
 \include "include/defs.ly"
+\layout {
+  \context {
+    \Voice
+        \override Script #'stencil = #bold-tenuto-script-stencil
+  }
+} % end global layout
 EOF
 # this can only go in a very small number of places
     for(@parts_to_do){
@@ -160,5 +166,5 @@ print << 'EOF';
 EOF
 }
 print << 'EOF';
-    }
+    } %end book
 EOF
