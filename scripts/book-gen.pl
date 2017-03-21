@@ -89,37 +89,7 @@ print << 'EOF';
 % Lilypond
 % 2.16.2 is currently on Athena
 \version "2.16.2"
-%#(set-default-paper-size "letter")
-piuF = \markup {\italic "piu" \dynamic f }
-invB = { \hideNotes \relative { b'1 } \unHideNotes }
-#(set! paper-alist (cons '("mysize" . (cons (* 8.5 in) (* 6.1 in))) paper-alist))
-    #(set-default-paper-size "mysize")
-invD = {\hideNotes \relative {d,1}\unHideNotes }
-#(define ((alter-lv-tie-curve offsets) grob)
-   (let ((coords (ly:semi-tie::calc-control-points grob)))
-     (define (add-offsets cs os)
-      (if (null? cs)
-       '()
-        (cons
-         (cons (+ (caar cs) (car os))
-            (+ (cdar cs) (cadr os)))
-         (add-offsets (cdr cs) (cddr os)))))
- (add-offsets coords offsets)))
-shapeLVTie = #(define-music-function (parser location offsets) (list?)
-#{
- \once \override LaissezVibrerTie #'control-points = #(alter-lv-tie-curve offsets)
-#})
-
-% works for the remainder of the voice
-% http://lilypond.1069038.n5.nabble.com/Default-length-of-laissezvibrer-ties-td10440.html
-mylv = #(define-music-function (parser location) ()
-#{
- \override LaissezVibrerTie #'control-points = #(alter-lv-tie-curve '(
-0 0.75
-0.6 3
-1.6 2
-1.75 1.5))
-#})
+\include "include/defs.ly"
 EOF
 # this can only go in a very small number of places
     for(@score_order){
@@ -151,12 +121,7 @@ composer = "A.V. Alexandrov"
         } % end header
 EOF
     print << 'EOF';
-        \paper {
-  system-system-spacing = #'(( basic-distance . 0.1 ) (padding . 0.5))
-  line-width=6.8\in
-  print-page-number = ##f
-  top-margin=1.1\in
-        } % end paper
+\include "include/paper.ly"
 EOF
 print << 'EOF';
         \score {
@@ -201,12 +166,7 @@ print << 'EOF';
 EOF
 print << 'EOF';
             \layout {
-              \context {
-                \Score % definitely remove because different instruments (esp trumpet) have different numbers of bars
-                \remove "Bar_number_engraver"
-              }
-              indent = #0
-              ragged-last = ##t
+\include "include/layout.ly"
 EOF
 if(defined$db{$_}->{size}){
     print << "EOF";
