@@ -1,5 +1,4 @@
 % DB name \markup {"F Horn 4"}
-% DB width 5.5
 % DB similar c f
 % DB size 26
 fhornD =

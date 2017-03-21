@@ -1,7 +1,6 @@
 % DB name "Cymbals & Bass Drum"
 % Original has the convention of a shared quarter rest is written in the bottom of the staff.
 % We do not mimic it, instead putting it in the center where it ought to be.
-% DB width 6
 % DB staff percussion
 % DB nopack 1
 % DB size 26

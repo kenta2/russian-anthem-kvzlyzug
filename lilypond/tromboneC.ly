@@ -1,6 +1,5 @@
 % DB name "Trombone 3"
 % Doubles Tuba / String bass a lot, so this might be a bass trombone part
-% DB width 6
 % DB size 26
 tromboneC =
 { \key c \major \clef "bass"

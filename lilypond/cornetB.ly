@@ -1,6 +1,5 @@
 % DB name \markup {"B" \flat "Cornet 2"}
 
-% DB width 6.9
 % DB size 26
 
 % this is the lower part of the cornet 1 part

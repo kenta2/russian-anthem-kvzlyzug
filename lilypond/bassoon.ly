@@ -1,5 +1,4 @@
 % DB name "Bassoon"
-% DB width 6
 % DB size 26
 bassoon =
 { \key c \major \clef "bass"

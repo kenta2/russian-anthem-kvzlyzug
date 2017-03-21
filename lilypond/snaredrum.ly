@@ -1,5 +1,4 @@
 % DB name "Snare Drum"
-% DB width 6
 % DB staff percussion
 % DB nopack 1
 % DB size 26

@@ -1,5 +1,4 @@
 % DB name \markup {"B" \flat "Trumpet 2"}
-% DB width 6
 % DB similar c' bes
 % DB size 19.3
 trumpetB =
