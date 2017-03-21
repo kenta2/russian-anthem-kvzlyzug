@@ -90,6 +90,9 @@ arrangement (YET TO BE DONE).
 We added a piccolo part from the symphony orchestra
 arrangement.
 
+Transposing from C to B-flat made the Tuba part extremely
+low, so we added some alternative octave notes.
+
 We added some of the expressive markings from symphony
 orchestra arrangement.  For example, the slurs over tenuto
 eighth notes were removed.
