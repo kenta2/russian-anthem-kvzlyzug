@@ -1,6 +1,6 @@
 % DB name \markup {"B" \flat "Cornet 1"}
 % DB similar c' bes
-% DB size 25.9
+% DB size 26
 cornetAtop = \relative c'' { d2\f ~ d4 r8 a g'2-> fis8( e) d e}
 cornetAbot = \relative c'' { a2\f ~ a4 r8 a d2-> cis4 b8 cis8}
 
@@ -30,5 +30,5 @@ cornetA=
     }
     \alternative
     {{  d'4-> cis8. b16 a4.\>  a8\f}
-     {  a2_\markup{\italic rit.} b4\< cis}} | d2\!\fermata~d8 r r4 \bar "|."
+     {  a2_\markup{\italic rit.} \grace \invB b4\< cis}} | d2\!\fermata~d8 r r4 \bar "|."
   }}
