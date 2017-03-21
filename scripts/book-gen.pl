@@ -75,6 +75,12 @@ snaredrum
 cymbalsAndBassDrum
 );
 
+if(@ARGV){
+    @parts_to_do=@ARGV;
+} else {
+    @parts_to_do=@score_order;
+}
+
 for$file(@originalparts){
     open FI,"$file.ly" or die;
     while(<FI>){
@@ -92,7 +98,7 @@ print << 'EOF';
 \include "include/defs.ly"
 EOF
 # this can only go in a very small number of places
-    for(@score_order){
+    for(@parts_to_do){
     print << "EOF";
 \\include "$_.ly"
 EOF
@@ -104,7 +110,7 @@ EOF
 tagline = ##f
 }
 EOF
-for(@score_order){
+for(@parts_to_do){
     print << 'EOF';
     \bookpart {
 EOF
