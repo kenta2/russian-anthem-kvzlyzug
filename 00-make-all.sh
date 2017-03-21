@@ -2,8 +2,11 @@
 set -x
 set -e
 set -o pipefail
-parts=$(perl all-parts.pl)
-for file in $parts
-do perl gen-lilypond.pl "$file" > "$file"-part.ly
-    LANG=C lilypond "$file"-part.ly
-done
+partsfile=all-parts.ly
+pushd lilypond
+perl ../scripts/book-gen.pl > "$partsfile"
+LANG=C lilypond "$partsfile"
+mv all-parts.pdf ..
+if [ "${keep_ly:-no}" != "yes" ]
+then rm "$partsfile"
+fi
