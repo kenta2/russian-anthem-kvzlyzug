@@ -38,7 +38,7 @@ mylv = #(define-music-function (parser location) ()
       (dir (ly:grob-property grob 'direction 0))
       (script-stencil (ly:grob-property grob 'script-stencil))
       (tenuto-width 0.25) ;;; alter this value to modify the line width of the tenuto
-      (tenuto-length 1.5) ;;; alter this value to modify the line length of the tenuto
+      (tenuto-length 1.4) ;;; alter this value to modify the line length of the tenuto
       (tl (* -0.5 tenuto-length))
       (tr (* 0.5 tenuto-length))
       (ten-sil (make-line-stencil (* scale tenuto-width) (* scale tl) 0.0 (* scale tr) 0.0))
