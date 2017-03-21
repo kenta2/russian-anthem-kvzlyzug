@@ -1,7 +1,7 @@
 % DB name \markup {"B" \flat "Clarinet 1"}
 % DB width 6
 % DB similar c' bes,
-% DB size 26
+% DB size 24.7
 clarinetA =
 { \key d \major \clef treble
   \relative c''' {
