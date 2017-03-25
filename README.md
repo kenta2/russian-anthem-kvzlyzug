@@ -90,6 +90,8 @@ arrangement (YET TO BE DONE).
 We added a piccolo part from the symphony orchestra
 arrangement.
 
+We split the Cornet 1 part into 2 separate parts.
+
 Transposing from C to B-flat made the Tuba part extremely
 low, so we added some alternative octave notes.
 
