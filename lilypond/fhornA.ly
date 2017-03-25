@@ -6,7 +6,7 @@ fhornA =
   \relative c'' {
 %{Intro%} d2\f\fermata~d4 r4\fermata
     \repeat volta 3
-    { b4 b | b b | g g | g g | a a | a a8.\cresc (b16)\!
+    { b4 b | b b | g g | g g | a a | a a8.\cresc b16\!
       | c4 a8 d | d4. d8 | \mark #1 d4 d d d | b b b b | g g
       | g g a a | a8 r d--\< d-- %removed tie
         \mark #2 \time 4/4 d2.--\ff d4 | d4. d8 d fis,--[ g-- a--]

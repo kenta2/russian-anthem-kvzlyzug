@@ -6,8 +6,8 @@ trumpetB =
   \relative c'' {
 %{Intro%} a2\f\fermata~a4 r8\fermata a
     \repeat volta 3
-    { | a4 a8. (b16) | a4 fis8 fis | d4 d8. d16 | d4 d8 d
-      | e4 e8. (fis16) | e4 e8.\cresc (fis16)\! | e4 e8 a | a8 \times 2/3 { a16 a a} a8 a \mark #1 a4 a8. (b16) | a4 a8 a
+    { | a4 a8. b16 | a4 fis8 fis | d4 d8. d16 | d4 d8 d
+      | e4 e8. fis16 | e4 e8.\cresc fis16\! | e4 e8 a | a8 \times 2/3 { a16 a a} a8 a \mark #1 a4 a8. b16 | a4 a8 a
       | fis4 fis8. fis16 | fis4 fis8 fis | d4 d8. d16 | d4 d8. d16 | e4 e8. e16 | e8 a--[\< b-- cis--]
       | \mark #2 \time 4/4 a8\!  r-\piuF a4-> a2->~ | a8 \times 2/3 {a16 a a } a4~a8 r r4 | r fis-> fis2->~ | fis8 \times 2/3 {fis16 fis fis} fis4. fis8\> g a |
       %attaching piuF to the rest is hack to get the f to fall under the low A
