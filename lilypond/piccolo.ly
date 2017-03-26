@@ -3,7 +3,7 @@
 % DB short Picc
 % DB similar c' c
 % DB nopack 1
-% DB size 26
+% DB size 26.0
 piccolo =
 { \key c \major \clef treble
   \relative c'' {

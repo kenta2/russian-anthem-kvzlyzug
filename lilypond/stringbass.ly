@@ -1,7 +1,7 @@
 % DB name "String Bass"
 % called Contrabass in the original
 % string bass can go down to an e, so transponsing down a whole step will not be a problem
-% DB size 26
+% DB size 26.0
 stringbass =
 { \key c \major \clef "bass"
   \relative c {

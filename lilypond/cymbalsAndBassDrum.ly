@@ -3,7 +3,7 @@
 % We do not mimic it, instead putting it in the center where it ought to be.
 % DB staff percussion
 % DB nopack 1
-% DB size 26
+% DB size 26.0
 
 cymbalsAndBassDrum= \drummode {
 %{Intro%} << { \mylv gui2\laissezVibrer\ff\fermata } \\ { gui4 r } >>  r2\fermata

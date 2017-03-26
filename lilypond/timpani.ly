@@ -1,6 +1,6 @@
 % DB name "Timpani"
 % DB nopack 1
-% DB size 24
+% DB size 24.0
 % size 26 the whole rests become weird looking
 timpani =
 { \key c \major \clef "bass"
