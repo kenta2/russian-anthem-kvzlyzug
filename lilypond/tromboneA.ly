@@ -5,8 +5,8 @@ tromboneA =
   \relative c' {
 %{Intro%} g2.\ff\fermata r4\fermata
     \repeat volta 3
-    { | c2\f b | a4 c c g | a\mf\cresc( a a d8. e16
-      | d4) g,8-- a--  b \times 2/3 {g16 g g} g8 g | \mark #1 c4\f d8. c16  b4. r8 | c4 b8. a16  b4. r8| a4 c c  c8 c
+    { | \set Staff.clefGlyph=##f c2\f b | a4 c c g | a\mf\cresc( a a d8. e16
+      | d4) g,8-- a--  b-- \times 2/3 {g16 g g} g8 g | \mark #1 c4\f d8. c16  b4. r8 | c4 b8. a16  b4. r8| a4 c c  c8 c
       | c2(  b8) b--[\< c-- d--] | \mark #2 %{ \time 4/4 %} c2--\ff %maybe f?
             g4 g | b2. r4 | c2-- b8( a) g a | b2. r4
     }

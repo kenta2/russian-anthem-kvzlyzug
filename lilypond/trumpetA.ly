@@ -6,8 +6,8 @@ trumpetA =
   \relative c'' {
 %{Intro%} d2.\ff\fermata r8\fermata a\f
     \repeat volta 3
-    { | d4 a8. b16  cis4 fis,8 fis | b4 a8. g16  a4 d,8  d\mf\cresc
-      | e4( e8. fis16  g4 g8. a16 | b4) cis8-- d--  e8 \times 2/3 { a,16 a a} a8 a  | \mark #1 fis'4\f e8. d16  e4 cis8 a
+    { | \set Staff.clefGlyph=##f d4 a8. b16  cis4 fis,8 fis | b4 a8. g16  a4 d,8  d\mf\cresc
+      | e4( e8. fis16  g4 g8. a16 | b4) cis8-- d--  e8-- \times 2/3 { a,16 a a} a8 a  | \mark #1 fis'4\f e8. d16  e4 cis8 a
       | d4 cis8. b16  cis4 fis,8 fis | b4 a8. g16  a4 d,8 d | d'4 cis8. b16  a8 cis--[\< d-- e--]
       | \mark #2 %{ \time 4/4 %} fis\!  r-\piuF a,4-> a'2->~ | a8 \times 2/3 {a16 a a } a4. r8 r4 | r fis,-> fis'2->~ | fis8 \times 2/3 {fis16 fis fis} fis4. a,8\> b cis |
       %attaching piuF to the rest is hack to get the f to fall under the low A
