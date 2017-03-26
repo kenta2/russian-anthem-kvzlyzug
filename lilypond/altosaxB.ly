@@ -4,7 +4,7 @@
 altosaxB =
 { \key a \major \clef treble
   \relative c'' {
-%{Intro%} cis2\ff\fermata~cis4 r4\fermata
+%{Intro%} cis2.\ff\fermata r4\fermata
     \repeat volta 3
     { | cis4\f cis8. cis16 cis4 cis8 cis | a4 a8. a16 a4 a8 a8\mf\cresc
       | fis4( fis8. b16  b4 b8. cis16 | d4) gis,8-- a--  b4 d | \mark #1 cis\f cis  b4. r8

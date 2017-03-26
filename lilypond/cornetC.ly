@@ -5,7 +5,7 @@
 cornetC=
 { \key d \major \clef treble
   \relative c' {
-%{Intro%} fis2\ff\fermata~fis4 r8\fermata a\f
+%{Intro%} fis2.\ff\fermata r8\fermata a\f
     \repeat volta 3
     { | fis4 fis8. fis16  fis4 fis8 fis | b4 a8. g16  a4 d,8 d8\mf\cresc
       | e4( e8. fis16  e4 e8. fis16 | g4) a8-- b--  cis4. a8 | \mark #1 d4\f a8. b16  cis4 a8 a

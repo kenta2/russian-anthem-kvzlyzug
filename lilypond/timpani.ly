@@ -5,7 +5,7 @@
 timpani =
 { \key c \major \clef "bass"
   \relative c {
-%{Intro%} c2:32\ff\fermata~c4 r4\fermata
+%{Intro%} c2.:32\ff\fermata r4\fermata
     \repeat volta 3
     { | c4.:\f r8 r2 | R1 |r2 c2:\mp\cresc | c2:  g8 r g g
       | \mark #1 c4\f r r2| c4 r  r2 | R1 | d4:\mf d8. d16 g,8 r r4

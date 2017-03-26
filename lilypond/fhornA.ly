@@ -4,7 +4,7 @@
 fhornA =
 { \key g \major \clef treble
   \relative c'' {
-%{Intro%} d2\ff\fermata~d4 r4\fermata
+%{Intro%} d2.\ff\fermata r4\fermata
     \repeat volta 3
     { | b4\f b  b b | g g  g g | a\mf\cresc( a  a a8. b16
       | c4) a8-- d--  d4. d8 | \mark #1 d4\f d d d | b b b b | g g

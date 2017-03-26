@@ -3,7 +3,7 @@
 bassoon =
 { \key c \major \clef "bass"
   \relative c {
-%{Intro%} c2\ff\fermata~c4 r4\fermata
+%{Intro%} c2.\ff\fermata r4\fermata
     \repeat volta 3
     { | c2\f e8 e[ g b] | f2 %moved slur ending
           e8 c[ e g\mf\cresc] | d4 d  c2

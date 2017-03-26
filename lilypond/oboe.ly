@@ -3,7 +3,7 @@
 oboe =
 { \key c \major \clef treble
   \relative c'' {
-%{Intro%} e2\ff\fermata~e4 r8\fermata g\f
+%{Intro%} e2.\ff\fermata r8\fermata g\f
     \repeat volta 3
     { e4 e8. e16 e4 g,8 g | a4 a8. a16  g4 g8 g\mf\cresc
       | f4( f8. a16  a4 a8. d16 | d4) d8-- g--  g4. g8 | \mark #1 g4\f g8. a16  g4 g8 g

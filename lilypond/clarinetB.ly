@@ -4,7 +4,7 @@
 clarinetB =
 { \key d \major \clef treble
   \relative c''' {
-%{Intro%} a2\ff\fermata~a4 r8\fermata a\f
+%{Intro%} a2.\ff\fermata r8\fermata a\f
     \repeat volta 3
     { a4 fis8. fis16  a4 cis,8 cis | d4 d8. d16  d4 a8 a\mf\cresc
       | b4( b8. e16  e4 e8. fis16 | g4) a8-- b--  cis4. \afterGrace a8 \invB |  \mark #1 \hideNotes \grace \invB  d4\f a8. b16  cis4 a8 a | b4 fis8. gis16

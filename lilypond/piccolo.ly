@@ -7,7 +7,7 @@
 piccolo =
 { \key c \major \clef treble
   \relative c'' {
-%{Intro%} c2\ff\fermata~c4 r4\fermata
+%{Intro%} c2.\ff\fermata r4\fermata
     \repeat volta 3
     { | R1*4 | \mark #1 R1*4
       | \mark #2 %{ \time 4/4 %} R1*6

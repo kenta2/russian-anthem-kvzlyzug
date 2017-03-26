@@ -4,7 +4,7 @@
 tenorsax =
 { \key d \major \clef treble
   \relative c'' {
-%{Intro%} d2\ff\fermata~d4 r4\fermata
+%{Intro%} d2.\ff\fermata r4\fermata
     \repeat volta 3
     { | d4\f a8. b16  cis8 fis,[ a cis] | b4 b8. b16  a8 d,[ fis a\mf\cresc]
            %not entirely where where the mf cresc should start
