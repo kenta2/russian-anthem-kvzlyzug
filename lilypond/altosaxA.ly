@@ -5,6 +5,7 @@ altosaxA =
 { \key a \major \clef treble
   \relative c'' {
 %{Intro%} e2.\ff\fermata r4\fermata
+    \set Staff.clefGlyph=##f
     \repeat volta 3
     { | e4\f e8. e16  e4 cis8 cis| fis4 e8. d16  e4 a,8 a\mf\cresc
       | b4( b8. cis16  d4 d8. e16 | fis4) b,8-- e--  e4.-- e8| \mark #1 e4\f e8. fis16 e4. r8

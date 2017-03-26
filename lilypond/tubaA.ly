@@ -7,6 +7,7 @@ tubaA =
 { \key c \major \clef "bass"
   \relative c {
 %{Intro%} c2.\ff\fermata r4\fermata
+    \set Staff.clefGlyph=##f
     \repeat volta 3
     { | c2\f e f e | d4\mf\cresc d c2 | c4 b8-- a--
        g-- r g4 | \mark #1 c\f e d4. r8 | a4 c b4. r8| f'4 d e2| d4.. d16

@@ -8,6 +8,7 @@ cornetB=
 { \key d \major \clef treble
   \relative c'' {
 %{Intro%} a2.\ff\fermata r8\fermata a\f
+    \set Staff.clefGlyph=##f
     \repeat volta 3
     { | a4 a8. b16  a4 fis8 fis | b4 a8. g16  a4 d,8  d\mf\cresc
       | e4( e8. fis16  g4 g8. a16 | b4) cis8-- d--  e4.--  a,8 | \mark #1 a4\f a8. b16  a4 cis8 a

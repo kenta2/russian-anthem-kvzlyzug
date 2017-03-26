@@ -17,6 +17,7 @@ cornetA=
 { \key d \major \clef treble
   \relative c'' {
 %{Intro%} d2.\ff\fermata r8\fermata a\f
+    \set Staff.clefGlyph=##f
     \repeat volta 3
     { | d4 a8. b16  cis4 fis,8 fis | b4 a8. g16  a4 d,8  d\mf\cresc
       | e4( e8. fis16  g4 g8. a16 | b4) cis8-- d--  e4.--  a,8 | \mark #1  fis'4\f e8. d16  e4 cis8 a

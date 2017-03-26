@@ -1,6 +1,7 @@
 baritoneMusic=
   \relative c' {
 %{Intro%} fis2.\ff\fermata r8\fermata a\f
+    \set Staff.clefGlyph=##f
     \repeat volta 3
     { | d4 a8. b16  cis8 fis,[a cis] | b4 a8. g16  a8 d,[ fis a\mf\cresc]
       | e4( e8. fis16  g4 g8. a16 | b4) a8-- b--  cis4.--  a8 | \mark #1 d\f fis,[ a b]  cis4 cis8 a

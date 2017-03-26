@@ -5,6 +5,7 @@ fluteB =
 { \key c \major \clef treble
   \relative c''' {
 %{Intro%} g2.\ff\fermata r8\fermata g\f
+    \set Staff.clefGlyph=##f
     \repeat volta 3
     { | g4 g8. a16 g4 b,8 b | c4 c8. c16  c4 c8 c\mf\cresc
       | a4( a8. d16  d4 d8. e16 | f4) g8-- a--  b4.-- g8 | \mark #1 c4\f g8. a16  b4 b8 g

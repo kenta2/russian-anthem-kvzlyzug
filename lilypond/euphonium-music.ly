@@ -5,6 +5,7 @@
 euphoniumMusic=
   \relative c'' {
 %{Intro%} d2.\ff\fermata r8\fermata a\f
+    \set Staff.clefGlyph=##f
     \repeat volta 3
     { | d4 a8. b16  cis8 fis,[a cis] | b4 a8. g16  a8 d,[ fis a\mf\cresc]
       | g4( g8. b16  b4 b8. a16 | b4) cis8-- d--  e4.-- a,8| \mark #1 \grace \invB fis'8\f fis,[ a b]  cis4 cis8 a| d d,[ fis gis]

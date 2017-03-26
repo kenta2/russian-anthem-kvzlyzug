@@ -5,6 +5,7 @@ fhornD =
 { \key g \major \clef treble
   \relative c' {
 %{Intro%} d2.\ff\fermata r4\fermata
+    \set Staff.clefGlyph=##f
     \repeat volta 3
     { |d\f d d d | e e d d | c\mf\cresc( e e e8. d16
       |e4) d8-- d-- d4-- d | \mark #1 d\f d d d | b b  d d | e e

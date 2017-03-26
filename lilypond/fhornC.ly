@@ -5,6 +5,7 @@ fhornC =
 { \key g \major \clef treble
   \relative c'' {
 %{Intro%} b2.\ff\fermata r4\fermata
+    \set Staff.clefGlyph=##f
     \repeat volta 3
     { | g4\f g fis fis | g g g g | a\mf\cresc( a  a a8. b16
       | a4) fis8-- g-- a4-- c | \mark #1 b\f b a a  g fis8. e16 fis4 fis | g g

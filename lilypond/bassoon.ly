@@ -4,6 +4,7 @@ bassoon =
 { \key c \major \clef "bass"
   \relative c {
 %{Intro%} c2.\ff\fermata r4\fermata
+    \set Staff.clefGlyph=##f
     \repeat volta 3
     { | c2\f e8 e[ g b] | f2 %moved slur ending
           e8 c[ e g\mf\cresc] | d4 d  c2

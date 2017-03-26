@@ -4,6 +4,7 @@ tromboneA =
 { \key c \major \clef "bass"
   \relative c' {
 %{Intro%} g2.\ff\fermata r4\fermata
+    \set Staff.clefGlyph=##f
     \repeat volta 3
     { | c2\f b | a4 c c g | a\mf\cresc( a a d8. e16
       | d4) g,8-- a--  b-- \times 2/3 {g16 g g} g8 g | \mark #1 c4\f d8. c16  b4. r8 | c4 b8. a16  b4. r8| a4 c c  c8 c

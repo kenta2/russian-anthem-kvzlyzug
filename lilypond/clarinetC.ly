@@ -5,6 +5,7 @@ clarinetC =
 { \key d \major \clef treble
   \relative c'' {
 %{Intro%} fis2.\ff\fermata r8\fermata a\f
+    \set Staff.clefGlyph=##f
     \repeat volta 3
     { | fis4 fis8. fis16  fis4 a,8 a | b4 b8. b16  a4 a8 a\mf\cresc
       | g4( g8. b16  b4 b8. e16 | e4) e8-- a--  a4.-- a8 | \mark #1 a4\f a8. b16  a4 a8 a | fis4 fis8. fis16

@@ -5,6 +5,7 @@ trumpetB =
 { \key d \major \clef treble
   \relative c'' {
 %{Intro%} a2.\ff\fermata r8\fermata a\f
+    \set Staff.clefGlyph=##f
     \repeat volta 3
     { | a4 a8. b16  a4 fis8 fis | d4 d8. d16  d4 d8 d\mf\cresc
       | e4( e8. fis16  e4 e8. fis16 | e4) e8-- a-- a8-- \times 2/3 { a16 a a} a8 a | \mark #1 a4\f a8. b16  a4 a8 a
