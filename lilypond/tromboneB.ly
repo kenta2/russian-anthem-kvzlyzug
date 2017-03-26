@@ -6,7 +6,7 @@ tromboneB =
 %{Intro%} e2\ff\fermata~e4 r4\fermata
     \repeat volta 3
     { | e2\f g a g | f4\mf\cresc( f8. e16 | f4 a8. g16
-      | a4) g8 g | g \times 2/3 {g16 g g} g8 g | \mark #1 e4\f g | g4. r8 | e4 e | g4. r8 | a4 a g g
+      | a4) g8-- g-- | g \times 2/3 {g16 g g} g8 g | \mark #1 e4\f g | g4. r8 | e4 e | g4. r8 | a4 a g g
       | fis2( | g8) g--[\< a-- b--] | \mark #2 \time 4/4 e,2--\ff g4 g | g2. r4 | e2.-- g4 | g2.  r4
     }
     \alternative

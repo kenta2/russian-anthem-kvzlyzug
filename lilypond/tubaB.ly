@@ -8,7 +8,7 @@ tubaB =
   \relative c, {
 %{Intro%} c2\ff\fermata~c4 r4\fermata
     \repeat volta 3
-    { | c2\f e f e | d4\mf\cresc <d d'> <c c'>2 <c c'>4 <b b'>8 <a a'>
+    { | c2\f e f e | d4\mf\cresc <d d'> <c c'>2 <c c'>4 <b b'-->8 <a a'-->
       | <g g'> r <g g'>4 | \mark #1 c\f e g4. r8 | <a, a'>4 <c c'> <b b'>4. r8| f'4 d e2| d4.. d16
       | g8 f--[\< e-- d--] |\mark #2 \time 4/4 c8\ff b c d e4 e | <g, g'> b8 d g g--[ f-- e--] | <a, a'> e' <a, a'> <b b'> <c c'>4 <c c'
 > | <e e'> <g, g'>8 <b b'> e e[\> d g]
