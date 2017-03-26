@@ -1,5 +1,5 @@
 % DB name \markup {B \flat "Baritone (Euphonium 2)" {\raise #1 \musicglyph #"clefs.G_change"}}
-% DB size 21.6
+% DB size 22.3
 \include "baritone-music.ly"
 baritone=
 { \key d \major \clef treble

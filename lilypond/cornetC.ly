@@ -1,7 +1,7 @@
 % DB name \markup {"B" \flat "Cornet 3"}
 % this is originally the cornet 2 part, but is 3 here because cornet 1 is split
 % DB similar c' bes
-% DB size 22.2
+% DB size 23.5
 cornetC=
 { \key d \major \clef treble
   \relative c' {

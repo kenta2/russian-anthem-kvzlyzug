@@ -1,5 +1,5 @@
 % DB name "Oboe"
-% DB size 24.7
+% DB size 25.9
 oboe =
 { \key c \major \clef treble
   \relative c'' {

@@ -2,7 +2,7 @@
 % originally this was the Bass 2 part
 % Transposing this part down a whole step to make it nice for wind band is going to make the low notes impossible / hard to hear.
 % Therefore, we add some octave chords, artistically.
-% DB size 22.6
+% DB size 23.8
 tubaB =
 { \key c \major \clef "bass"
   \relative c, {

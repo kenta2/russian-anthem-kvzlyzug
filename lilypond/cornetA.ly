@@ -1,6 +1,6 @@
 % DB name \markup {"B" \flat "Cornet 1"}
 % DB similar c' bes
-% DB size 23.1
+% DB size 24.4
 cornetAtop = \relative c'' { d2\f ~ d4 r8 a g'2-> fis8( e) d e}
 cornetAbot = \relative c'' { a2\f ~ a4 r8 a d2-> cis4 b8 cis8}
 
