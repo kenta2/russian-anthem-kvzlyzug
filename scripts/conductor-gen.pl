@@ -165,6 +165,8 @@ for(@{$og[$g]}){
     } else {
         $transpose='';
     }
+    #$transpose=q(\transpose c' bes);
+    #$transpose='';
     print << "EOF";
 \\new Staff = "Staff_$_" {
 \\set Staff.instrumentName=#"$_"
