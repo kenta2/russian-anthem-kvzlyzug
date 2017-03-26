@@ -6,10 +6,21 @@ We replaced quarter tied to an eighth note, typically a convention for full leng
 
 
 consider 1977 dynamics
+ff at intro, then f in theme
+mf cresc start at pick up to 5th half note of main theme into (add)f 1
+* this moves the cresc earlier
+ff at 2 (already done).  only some parts have the hairpin cresc before
+mf 2 measures before 3, cresc later in the measure to ff at 3
+(parts significantly differ about this..., i'm surprised I didn't catch it earlier)
+fff at end
 
-fix slurs to extend past the 16th, actually remove them completely
+consider removing tenorsax, basson, etc moving 8th slurs.
 
-remove dotted quarter slurs
+consider reverting dotted quarter into quarter tied to eighth, or else the crescendo does not make a lot of sense.
+
+remove dotted quarter slurs (probably not)
+
+consider changing halfnote at end of first ending to dotted quarter
 
 change bottom margin
 

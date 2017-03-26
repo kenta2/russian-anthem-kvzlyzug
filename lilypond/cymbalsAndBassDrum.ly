@@ -6,7 +6,7 @@
 % DB size 26
 
 cymbalsAndBassDrum= \drummode {
-%{Intro%} << { \mylv gui2\laissezVibrer\f\fermata } \\ { gui4 r } >> | r1\fermata
+%{Intro%} << { \mylv gui2\laissezVibrer\ff\fermata } \\ { gui4 r } >> | r1\fermata
     \repeat volta 3
     { | << { \mylv gui4\laissezVibrer\f } \\ { gui4 } >> r4 | R2*7
       | \mark #1 << { \mylv gui4\laissezVibrer } \\ { gui4 } >> r4 | R2*7

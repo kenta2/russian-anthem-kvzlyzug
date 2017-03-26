@@ -7,7 +7,7 @@
 piccolo =
 { \key c \major \clef treble
   \relative c'' {
-%{Intro%} c2\f\fermata~c4 r4\fermata
+%{Intro%} c2\ff\fermata~c4 r4\fermata
     \repeat volta 3
     { | R2*8 | \mark #1 R2*8
       | \mark #2 \time 4/4 R1*6
@@ -17,5 +17,5 @@ piccolo =
     \alternative
     {{  c'4-> % this accent is only in the symphony score
            b8. a16 g4.\> %{replaced tied eighth with dot %} %{ consider adding an eighth rest %} r8\!}
-     { g2_\markup{\italic rit.} a4\< %{consider starting the crescendo on the half note%} b }} | c2\!\fermata~c8 %{consider marking this fff %} r r4 \bar "|."
+     { g2_\markup{\italic rit.} a4\< %{consider starting the crescendo on the half note%} b }} | c2\fff\fermata~c8 r r4 \bar "|."
   }}

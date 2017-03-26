@@ -4,7 +4,7 @@
 % DB size 26
 
 snaredrum = \drummode {
-%{Intro%} gui2:32\f\fermata~gui4 r4\fermata
+%{Intro%} gui2:32\ff\fermata~gui4 r4\fermata
     \repeat volta 3
     { gui4.:\f r8 | R2*3 | gui2:\mp~ | gui2:\cresc~
       | gui2:\!~ | gui8 \times 2/3 {gui16 gui gui} gui4:\<~ | \mark #1 gui8\! r r4 | R2*5 | gui2:\mf~ | gui8 r gui4\<
@@ -16,7 +16,7 @@ snaredrum = \drummode {
   {{gui4: gui8. gui16 gui4.:\> r8\!}
    { << gui1:32_\markup{\italic rit.} { s4 s4 s4 s8\< \grace {\hideNotes gui1 gui1 \unHideNotes} s8} >>
 }}
-gui2:\!\fermata~gui8 r r2 \bar "|."
+gui2:\fff\fermata~gui8 r r2 \bar "|."
   }
 
 
