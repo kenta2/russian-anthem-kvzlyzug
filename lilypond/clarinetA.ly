@@ -7,7 +7,7 @@ clarinetA =
 %{Intro%} d2\ff\fermata~d4 r8\fermata a\f
     \repeat volta 3
     { d4 a8. b16 | cis4 fis,8 fis | b4 a8. g16 | a4 d,8  d\mf\cresc
-      | e4 e8. fis16 | g4 g8. a16 | b4 cis8 d | e4. \afterGrace a,8 \invB | \mark #1 \grace \invB fis'4\f e8. d16 | e4 cis8 a
+      | e4( e8. fis16 | g4 g8. a16 | b4) cis8 d | e4. \afterGrace a,8 \invB | \mark #1 \grace \invB fis'4\f e8. d16 | e4 cis8 a
       | d4 cis8. b16 | cis4 fis,8 fis | b4 a8. g16 | a4 d,8 d | d'4 cis8. b16 | a4\<~a8\! \afterGrace r8 \invB
       | \mark #2 \time 4/4 fis'2--\ff e8(d) cis d | e4. a,8 a4 r | d2-- cis8(b)a b| cis4. fis,8 fis a[\>
                                 %symphony orchestra has tenuto here but we omit because they seem silly
