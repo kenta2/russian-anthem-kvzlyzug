@@ -16,7 +16,7 @@ cornetB=
       e8(d) cis d | e4. a,8 a cis--[ d-- e--] | d2-- cis8(b)a b| cis4. fis,8 fis a[\> b cis]
       | b4\mf g8. a16 b4\cresc g8. a16 | b4 g8 b d2 | \mark #3  d2->\ff cis4 b8 cis | d4.-- a8 a2 | b2-> %removed a weird cresc here
       d8(cis)b cis | d4.-- b8 b2
-      | \mark #4 d4 cis8. b16 a4 d,8. d16 |
+      | \mark #4 d4 cis8. b16 a4 d,8 d |
 
     }
     \alternative

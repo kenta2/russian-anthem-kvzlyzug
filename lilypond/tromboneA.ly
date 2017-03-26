@@ -13,7 +13,7 @@ tromboneA =
     \alternative
     {{ | c8.\mf c16 c4~ c8.\cresc c16 c4~ | c8 c16 c c8 c c \times 2/3 { c16 c c} c8 c | \mark #3 c2->\ff b4 a8 b
        | c4.-- c8 c2 | d-> d | c4.-- c8 c2
-       | \mark #4 c4 b8. a16 g4 c8. c16 | c4-> c b4.\>r8\!
+       | \mark #4 c4 b8. a16 g4 c8 c | c4-> c b4.\>r8\!
      }
      { r8.
        a16 c4..\cresc c16 f4

@@ -11,7 +11,7 @@ altosaxA =
       | cis4 cis8. cis16 | cis4. r8 | fis4 e8. d16| e4 a,8 a | dis2(|e8) gis--[\< a-- b--]
       | \mark #2 \time 4/4 a2--\ff gis8( fis) e fis | gis4. e8 e e--[ fis-- gis--] | fis2-- e8(dis) cis dis|e4. cis8 cis4 r| a2\mf d\cresc
       | fis4 d8 fis a2 | \mark #3 a8->\ff fis a d, gis4 fis8 gis | a4.-- e8 e2 | fis8-> d fis b eis,4 dis8 eis | fis4.-- cis8 cis2
-      | \mark #4 fis4 e8. d16 cis4 a8. a16 |
+      | \mark #4 fis4 e8. d16 cis4 a8 a |
     }
     \alternative
     {{ | dis4-> dis8. dis16 e4.\> r8\!} %modifying the descresc and rest to be consistent with other parts

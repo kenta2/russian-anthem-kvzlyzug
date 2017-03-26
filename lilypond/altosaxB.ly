@@ -12,7 +12,7 @@ altosaxB =
       | \mark #2 \time 4/4 e2.--\ff %added ff
          e4 | e4. (b8) b gis--[ a-- b-- ]  | cis2.-- cis4| cis4. (gis8) gis4 r| fis2\mf a\cresc
       | d4 a8 d fis2 | \mark #3 fis8->\ff fis a, d e2| e4.-- cis8 cis2 | d8-> d fis b, cis2| cis4.-- a8 a2
-      | \mark #4 d4 e8. d16 cis4 a8. a16
+      | \mark #4 d4 e8. d16 cis4 a8 a
     }
     \alternative
     {{ | b4-> b8. b16 b4.\> r8\!}

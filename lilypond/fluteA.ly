@@ -11,7 +11,7 @@ fluteA =
       | c4 b8. a16 | b4 e,8 e | a4 g8. f16 | g4 c,8 c | c'4 b8. a16 | g4\<~g8\! r8
       | \mark #2 \time 4/4 e'2--\ff d8(c) b c | d4. g,8 g4 r | c2-- b8(a)g a |  b4. e,8 e g[\> a b]
       | c4\mf a8. b16 c4\cresc a8. b16 |c4 a8 c \afterGrace f2 \invB | \mark #3 \grace \invB f2->\ff e8(d) c d | e4.-- c8 c2
-      | d-> c8 (b) a b| c4.-- a8 a2 | \mark #4 c4 b8. a16 g4 c,8. c16 |
+      | d-> c8 (b) a b| c4.-- a8 a2 | \mark #4 c4 b8. a16 g4 c,8 c |
     }
     \alternative
     {{  c'4-> b8. a16 g4.\> %{replaced tied eighth with dot %} %{ consider adding an eighth rest %} g8\f}

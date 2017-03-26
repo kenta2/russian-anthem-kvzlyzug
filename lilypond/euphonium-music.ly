@@ -12,7 +12,7 @@ euphoniumMusic=
       | \mark #2 \time 4/4 fis2--\ff %changed from f to ff
       e8(d) cis d | e4. a,8 a cis--[ d-- e--] | d2-- cis8(b)a b| cis4. fis,8 fis a[\> b cis] | d4\mf b8. cis16 d4\cresc b8. cis16
       | d4 b8 d \afterGrace g2 \invB |  \mark #3  \grace \invB d8->\ff( b) d g fis( e) d e | fis4.-- d8 d2 | e8->( g,) b e d( cis) b cis | d4.-- b8 b2
-      | \mark #4 d4 cis8. b16 a4 d8. d16 |
+      | \mark #4 d4 cis8. b16 a4 d8 d |
     }
     \alternative
     {{  d4-> cis8. b16 a4.\>  a8\f}

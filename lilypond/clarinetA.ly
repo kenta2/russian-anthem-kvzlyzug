@@ -13,7 +13,7 @@ clarinetA =
                                 %symphony orchestra has tenuto here but we omit because they seem silly
                                                                                                           b cis] | d4\mf b8. cis16 d4\cresc b8. cis16
       | d4 b8 d \afterGrace g2 {\hideNotes d,1} | \mark #3 \grace { d1 \unHideNotes }  g'2->\ff fis8(e)d e | fis4.-- d8 d2 | e2-> d8(cis)b cis | d4.-- b8 \afterGrace b2 {\hideNotes d,1}
-      | \mark #4 \grace { \hideNotes d1 \unHideNotes } d'4 cis8. b16 a4 d,8. d16 |
+      | \mark #4 \grace { \hideNotes d1 \unHideNotes } d'4 cis8. b16 a4 d,8 d |
 
     }
     \alternative
