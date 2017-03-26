@@ -1,6 +1,6 @@
 % DB name \markup {"B" \flat "Cornet 2"}
 
-% DB size 26
+% DB size 25.2
 
 % this is the lower part of the cornet 1 part
 % DB similar c' bes
