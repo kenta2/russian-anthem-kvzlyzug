@@ -15,11 +15,11 @@ altosaxB
 tenorsax
 bassoon
 
+trumpetA
+trumpetB
 cornetA
 cornetB
 cornetC
-trumpetA
-trumpetB
 fhornA
 fhornB
 fhornC
