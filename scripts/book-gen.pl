@@ -126,7 +126,7 @@ EOF
 print "\n";
 print << 'EOF';
 % boxes take up less space than circles
-\set Score.markFormatter = #format-mark-box-numbers
+\set Score.markFormatter = #format-mark-box-letters
 % Numbers match the original.  We do not need to worry about colliding with measure numbers because different parts have different number of measures
 EOF
 unless($db{$_}->{nopack}){
