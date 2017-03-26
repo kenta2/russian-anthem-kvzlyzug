@@ -171,7 +171,6 @@ for(@{$og[$g]}){
 \\new Staff = "Staff_$_" {
 \\set Staff.instrumentName=#"$_"
 \\set Staff.shortInstrumentName=#"$short"
-\\time 2/4
 \\set Score.markFormatter = #format-mark-numbers
 $transpose \\$_
 }

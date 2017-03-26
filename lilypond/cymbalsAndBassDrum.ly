@@ -6,11 +6,11 @@
 % DB size 26
 
 cymbalsAndBassDrum= \drummode {
-%{Intro%} << { \mylv gui2\laissezVibrer\ff\fermata } \\ { gui4 r } >> | r1\fermata
+%{Intro%} << { \mylv gui2\laissezVibrer\ff\fermata } \\ { gui4 r } >>  r2\fermata
     \repeat volta 3
-    { | << { \mylv gui4\laissezVibrer\f } \\ { gui4 } >> r4 | R2*7
-      | \mark #1 << { \mylv gui4\laissezVibrer } \\ { gui4 } >> r4 | R2*7
-      | \mark #2 \time 4/4 << {\mylv gui2\laissezVibrer\f} \\ {gui4 r} >> r2
+    { | << { \mylv gui4\laissezVibrer\f } \\ { gui4 } >> r4 r2 | R1*3
+      | \mark #1 << { \mylv gui4\laissezVibrer } \\ { gui4 } >> r4 r2 | R1*3
+      | \mark #2 %{ \time 4/4 %} << {\mylv gui2\laissezVibrer\f} \\ {gui4 r} >> r2
       % original puts two half rests above and below the staff, but lilypond does not automatically format that so nicely
       | R1 | << { \mylv gui2\laissezVibrer } \\ { gui4 r} >> r2
       | R1*3 | \mark #3 << {\mylv gui2\laissezVibrer\f} \\ {gui4 r} >> r2 % in this bar in the original, there is an example similar to lilyponds poor automatic formatting

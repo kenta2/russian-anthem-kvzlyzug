@@ -135,7 +135,6 @@ print << 'EOF';
 EOF
 }
         print <<'EOF';
-\time 2/4
 \tempo "Maestoso e cantabile" 4 = 76
 \compressFullBarRests
 EOF
