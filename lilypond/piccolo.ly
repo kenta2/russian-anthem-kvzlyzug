@@ -1,6 +1,6 @@
 % DB name "Piccolo"
 % this part is taken from the symphony orchestra score
-% DB short Pc
+% DB short Picc
 % DB similar c' c
 % DB nopack 1
 % DB size 26
