@@ -15,5 +15,5 @@ fhornD =
     }
     \alternative
     {{  | cis4-> cis d4.\> r8\!}
-     {  | d2_\markup{\italic rit.} e4\< d}} | d2\fff\fermata~d8 r r4 \bar "|."
+     {  | d2_\markup{\italic rit.} \grace \invB e4\< d}} | d2\fff\fermata~d8 r r4 \bar "|."
   }}

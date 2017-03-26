@@ -16,7 +16,7 @@ cornetC=
     }
     \alternative
     {{  gis4-> gis8. gis16 a4.\>  a8\f}
-     {  g2_\markup{\italic rit. } g4\< g}} | fis2\fff\fermata~fis8 r r4 \bar "|."
+     {  g2_\markup{\italic rit. } \grace \invB g4\< g}} | fis2\fff\fermata~fis8 r r4 \bar "|."
                                 % curiously this ends in r8 r8 r8 and not r8 r4, so a different arranger or something
     % which might explain the differences between f and ff at #2
   }}

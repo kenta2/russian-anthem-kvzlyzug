@@ -21,5 +21,5 @@ tromboneA =
     | r8 c16\< c f8 f \afterGrace a2 \invD | \mark #3 \times 2/3 { r8 d,\ff d} \times 2/3 {f d f} g8 r r4
     | r8. g,16 c4.. e16 g4 | \times 2/3 {r8 d d} \times 2/3 {f d f} e8 e16 e e8 e | e4. e8 \afterGrace e2 \invD
     | \mark #4 \grace \invD c4 b8. a16 g4 g4 % this is one of the rare times the first measure at D (originally the first measure of the 3rd ending) differs from the 1st/2nd ending
-    | b2_\markup{\italic rit.} a4\< g | g2\fff\fermata~g8 r r4 | \bar "|."
+    | b2_\markup{\italic rit.} \grace \invB a4\< g | g2\fff\fermata~g8 r r4 | \bar "|."
   }}

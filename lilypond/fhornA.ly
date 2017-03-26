@@ -17,5 +17,5 @@ fhornA =
     }
     \alternative
     {{  | a-> a a(\> c)\!} % the c is a weird note, but doubled in trombone 2.
-     {  | c2_\markup{\italic rit.} c4\< d}} | d2\fff\fermata~d8 r r4 \bar "|."
+     {  | c2_\markup{\italic rit.} \grace \invB c4\< d}} | d2\fff\fermata~d8 r r4 \bar "|."
   }}

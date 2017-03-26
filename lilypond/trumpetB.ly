@@ -20,5 +20,5 @@ trumpetB =
      }
      {| r8. d,16 g4..\cresc g16 b4  }} r8 g16\< g b8 d d2 | \mark #3 \times 2/3 { r8 g,\ff g} \times 2/3 {b8 g b} a2
     | r8. d,16 fis4.. a16 d4 | \times 2/3 { r8 g, g} \times 2/3 { b8 g b} ais8 fis16 fis fis8 fis | b4. b16 b b4. r8
-    | \mark #4 d,4 d8. d16 d4 d8 d | g2_\markup{\italic rit.} g4\< a | a2\fff\fermata~a8 r r4 \bar "|."
+    | \mark #4 d,4 d8. d16 d4 d8 d | g2_\markup{\italic rit.} \grace \invB g4\< a | a2\fff\fermata~a8 r r4 \bar "|."
   }}

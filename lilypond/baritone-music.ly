@@ -11,5 +11,5 @@ baritoneMusic=
     }
     \alternative
     {{  d4-> cis8. b16 a4.\>  a8\f}
-     {  g2_\markup{\italic rit.} g4\< g}} | fis2\fff\fermata~fis8 r r4 \bar "|."
+     {  g2_\markup{\italic rit.} \grace \invB g4\< g}} | fis2\fff\fermata~fis8 r r4 \bar "|."
   }

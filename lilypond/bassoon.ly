@@ -15,5 +15,5 @@ bassoon =
     }
     \alternative
     {{ | d-> d8. d16 g4\> g,\!}
-     { | g2_\markup{\italic rit.} g4\< g }} | c2\fff\fermata~c8 r r4 | \bar "|."
+     { | g2_\markup{\italic rit.} \grace \invB g4\< g }} | c2\fff\fermata~c8 r r4 | \bar "|."
   }}

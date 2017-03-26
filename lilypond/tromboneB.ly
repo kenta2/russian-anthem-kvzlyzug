@@ -17,5 +17,5 @@ tromboneB =
      { r8.\! % hack to end the decresc in the first ending
        f16 a4..\cresc a16 c4 }} | r8 a16\< a c8 c f2\! | \mark#3 \times 2/3 { r8 a,\ff a} \times 2/3 { d a d } g,8 r r4
     | r8. e16 g4.. c16 e4 | \times 2/3 {r8 a, a } \times 2/3 { d a d} e8 e16 e e8 d | c4. c8 c2
-       | \mark #4 a4 g8. f16 g4 g | f2_\markup{\italic rit.} f4\< f | e2\fff\fermata~e8 r r4 | \bar "|."
+       | \mark #4 a4 g8. f16 g4 g | f2_\markup{\italic rit.} \grace \invB f4\< f | e2\fff\fermata~e8 r r4 | \bar "|."
   }}

@@ -21,5 +21,5 @@ cornetB=
     }
     \alternative
     {{  d'4-> cis8. b16 a4.\>  a8\f}
-     {  a2_\markup{\italic rit.} b4\< a}} | a2\fff\fermata~a8 r r4 \bar "|."
+     {  a2_\markup{\italic rit.} \grace \invB b4\< a}} | a2\fff\fermata~a8 r r4 \bar "|."
   }}

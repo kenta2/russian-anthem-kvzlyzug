@@ -15,5 +15,5 @@ fhornB =
     }
     \alternative
     {{  | g4-> g fis4.\>r8\!}
-     {  | fis2_\markup{\italic rit.} g4\< fis}} | g2\fff\fermata~g8 r r4 \bar "|."
+     {  | fis2_\markup{\italic rit.} \grace \invB g4\< fis}} | g2\fff\fermata~g8 r r4 \bar "|."
   }}

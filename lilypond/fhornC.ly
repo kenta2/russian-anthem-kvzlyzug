@@ -16,5 +16,5 @@ fhornC =
     }
     \alternative
     {{  | a4-> a a4.\> r8\!}
-     {  | c2_\markup{\italic rit.} c4\< c}} | b2\fff\fermata~b8 r r4 \bar "|."
+     {  | c2_\markup{\italic rit.} \grace \invB c4\< c}} | b2\fff\fermata~b8 r r4 \bar "|."
   }}

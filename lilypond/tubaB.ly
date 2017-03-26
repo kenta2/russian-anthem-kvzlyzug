@@ -17,5 +17,5 @@ tubaB =
     }
     \alternative
     {{ | d4-> d8. d16 g4\> <g, g'>\!}
-     { | <g g'>2_\markup{\italic rit.} <g g'>4\< <g g'> }} | c2\fff\fermata~c8 r r4 | \bar "|."
+     { | <g g'>2_\markup{\italic rit.} \grace \invB <g g'>4\< <g g'> }} | c2\fff\fermata~c8 r r4 | \bar "|."
   }}

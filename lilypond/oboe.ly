@@ -14,5 +14,5 @@ oboe =
     }
     \alternative
     {{ d4-> d8. c16 b4. \>  g'8\f}
-     {b,2_\markup{\italic rit.} c4\< f }} | e2\fff\fermata~e8 r r4 \bar "|."
+     {b,2_\markup{\italic rit.} \grace \invB c4\< f }} | e2\fff\fermata~e8 r r4 \bar "|."
   }}

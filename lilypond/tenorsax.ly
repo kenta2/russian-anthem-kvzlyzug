@@ -18,5 +18,5 @@ tenorsax =
     \alternative
     % decresc and rest modified
     {{  | d4-> d8. d16 cis4.\>  r8\!}
-     {  | cis2_\markup{\italic rit.} d4\< cis}} | d2\fff\fermata~d8 r r4 \bar "|."
+     {  | cis2_\markup{\italic rit.} \grace \invB d4\< cis}} | d2\fff\fermata~d8 r r4 \bar "|."
   }}

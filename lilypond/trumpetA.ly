@@ -17,5 +17,5 @@ trumpetA =
       | \mark #4 d4 d8. d16 d4 d,8 d | d'4-> cis8. b16 a4.\>  a8\f}
    { | r8. d,16 g4..\cresc b16 d4 | }} r8 b16\< b d8 g b2 %stretch this cresc longer than the original
  | \mark #3 \times 2/3 { r8 b,\ff b } \times 2/3 { e b e } a2
-  | r8. fis,16 a4.. d16 fis4 | \times 2/3 {r8 b, b } \times 2/3 {e b e } fis8 fis16 fis16 fis8 fis | b4. b16 b b4. r8 | \mark #4 d,4 d8. d16 d4 d,8 d | a'2_\markup{\italic rit.} b4\< cis | d2\fff\fermata~d8 r r4 \bar "|."
+  | r8. fis,16 a4.. d16 fis4 | \times 2/3 {r8 b, b } \times 2/3 {e b e } fis8 fis16 fis16 fis8 fis | b4. b16 b b4. r8 | \mark #4 d,4 d8. d16 d4 d,8 d | a'2_\markup{\italic rit.} \grace \invB b4\< cis | d2\fff\fermata~d8 r r4 \bar "|."
   }}

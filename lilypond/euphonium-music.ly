@@ -16,5 +16,5 @@ euphoniumMusic=
     }
     \alternative
     {{  d4-> cis8. b16 a4.\>  a8\f}
-     {  cis2_\markup{\italic rit.} d4\< cis}} | d2\fff\fermata~d8 r r4 \bar "|."
+     {  cis2_\markup{\italic rit.} \grace \invB d4\< cis}} | d2\fff\fermata~d8 r r4 \bar "|."
   }
