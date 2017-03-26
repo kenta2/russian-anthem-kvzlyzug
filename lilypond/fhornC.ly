@@ -15,7 +15,6 @@ fhornC =
       | \mark #4 g4 g8. g16 g4 g
     }
     \alternative
-    {{  | a4-> a a2\>}
-     % considerable hack to attach the ! ending the decresc to the 3rd ending
-     {  | c2\!_\markup{\italic rit.} c4\< c}} | b2\fff\fermata~b8 r r4 \bar "|."
+    {{  | a4-> a a4.\> r8\!}
+     {  | c2_\markup{\italic rit.} c4\< c}} | b2\fff\fermata~b8 r r4 \bar "|."
   }}

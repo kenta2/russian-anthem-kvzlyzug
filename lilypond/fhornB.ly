@@ -14,7 +14,6 @@ fhornB =
       | \mark #4 g4 g8. g16 g4 g
     }
     \alternative
-    {{  | g4-> g fis2\>}
-     % considerable hack to attach the ! ending the decresc to the 3rd ending
-     {  | fis2\!_\markup{\italic rit.} g4\< fis}} | g2\fff\fermata~g8 r r4 \bar "|."
+    {{  | g4-> g fis4.\>r8\!}
+     {  | fis2_\markup{\italic rit.} g4\< fis}} | g2\fff\fermata~g8 r r4 \bar "|."
   }}

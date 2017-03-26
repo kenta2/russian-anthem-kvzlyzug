@@ -14,7 +14,6 @@ fhornD =
       | \mark #4 e4 d8. c16 d4 d4
     }
     \alternative
-    {{  | cis4-> cis d2\>}
-     % considerable hack to attach the ! ending the decresc to the 3rd ending
-     {  | d2\!_\markup{\italic rit.} e4\< d}} | d2\fff\fermata~d8 r r4 \bar "|."
+    {{  | cis4-> cis d4.\> r8\!}
+     {  | d2_\markup{\italic rit.} e4\< d}} | d2\fff\fermata~d8 r r4 \bar "|."
   }}
