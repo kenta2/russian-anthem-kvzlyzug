@@ -15,6 +15,6 @@ stringbass =
       | a,8 b c e a4 g | \mark #4 f d e e
     }
     \alternative
-    {{ | d4-> d8. d16 g,4\> g\!}
+    {{ | d4-> d8. d16 g4\> g,\!}
      { | g2_\markup{\italic rit.} g4\< g }} | c2\fff\fermata~c8 r r4 | \bar "|."
   }}
