@@ -1,7 +1,7 @@
 % DB name "Snare Drum"
 % DB staff percussion
 % DB nopack 1
-% DB size 25.9
+% DB size 26.0
 
 snaredrum = \drummode {
 %{Intro%} gui2.:32\ff\fermata r4\fermata

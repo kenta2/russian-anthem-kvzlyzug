@@ -1,6 +1,6 @@
 % DB name "Flute 1"
 % DB similar c' c
-% DB size 23.6
+% DB size 22.8
 fluteA =
 { \key c \major \clef treble
   \relative c''' {

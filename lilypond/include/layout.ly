@@ -3,4 +3,4 @@
                 \remove "Bar_number_engraver"
               }
               indent = #0
-              ragged-last = ##t
+              %ragged-last = ##t
