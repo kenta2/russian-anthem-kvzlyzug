@@ -23,16 +23,14 @@ Curiously, there is a nearly identical version at
 from the above in that it has been transposed into concert
 B-flat.  Unfortunately, only the conductor's score is
 available (not parts), and only as rasterized PNG image
-files (packed into a RAR file).  However, the conductor's
-score there could be used for the arrangement in this
-repository, if desired.
+files (packed into a RAR file).
 
 Musically, the Russian national anthem is identical to the
 Soviet Union national anthem.  New lyrics were written in
 2000, but lyrics are of course irrelevant for a band
 arrangement.
 
-This arrangement incorporates many musical flourishes, e.g.,
+This arrangement has many musical flourishes, e.g.,
 trumpet fanfares and moving bass line.  Incidentally, there
 is a simpler arrangement (1977 Soviet Union anthem) at
 <http://www.hymn.ru/index-en.html> . However, it suffers
@@ -43,7 +41,7 @@ from the same problems of "everything is in Russian", and
 
 The printed paper size in the generated PDF is US Letter,
 which can be adjusted by modifying the Lilypond source.  You
-will need to trim the white margins.  However, you will not
+will need to trim the white margins.  You should not
 need to reduce (with a photocopier, as is common when
 reformatting for marching band flip folders).
 
@@ -61,10 +59,13 @@ arrangement.
 
 ## Comparison with original
 
+We have modified the entire song to be in 4/4, combining pairs of
+measures in the 2/4 section at the beginning.
+
 The start points of the first and third endings differ
 between the parts (especially trumpets 1 and 2 and trombones
 1 and 2, and also snare drum).  This is unorthodox in
-musical typesetting.  This was done to avoid the complexity
+musical typesetting, but was done to avoid the complexity
 of typesetting multiple staves where the fanfare brass parts
 diverge.
 
@@ -77,15 +78,10 @@ point of the original first ending has been given rehearsal
 mark 4.  (Incidentally, the location of the first ending is
 the same as the 1977 Soviet Union version mentioned above.)
 
-The rehearsal marks (other than the added #4) and time
-signature changes are unchanged, so it is possible to mix
-and match parts with the original as well as with the
-symphony orchestra arrangement, modulo transposition.
-
 The fermatas in the beginning and the end have been taken
 from the 1977 Soviet Union arrangement mentioned above.  We
 also added some of the dynamic markings from that
-arrangement (YET TO BE DONE).
+arrangement.
 
 We added a piccolo part from the symphony orchestra
 arrangement.
@@ -95,13 +91,19 @@ We split the Cornet 1 part into 2 separate parts.
 Transposing from C to B-flat made the Tuba part extremely
 low, so we added some alternative octave notes.
 
-We added some of the expressive markings from symphony
+We incorporated some of the expressive markings from symphony
 orchestra arrangement.  For example, the slurs over tenuto
 eighth notes were removed.
 
 We cleaned up the parts, removing a few inconsistencies and
 probable errors.  These changes are documented as comments
-in the Lilypond sources.
+in the Lilypond sources and revision commit comments.
+
+We modified the rhythm to be more frequently dotted-eighths on beat 2
+then straight eigths on beat 4.  This consistency will hopefully make
+the song easier to learn and play and sound better for wind band.  I
+suspect the original rhythms make sense if the music accompanies a
+choir which is singing words.
 
 In order for rehearsal marks to nestle in between high
 notes, and therefore not force the systems to become spaced
@@ -127,7 +129,7 @@ The hidden grace notes hack also causes Lilypond to get
 confused about where the rehearsal marks are, resulting in
 multiple clustered rehearsal marks.
 
-For a nicer conductor's score (albeit in the wrong key and
+For a nicer conductor's score (albeit in the wrong key, different time signature, and
 in Russian), see the original site
 <http://flag.kremlin.ru/gimn/> as mentioned above.  For a
 conductor's score in B-flat (albeit as PNG images), see
