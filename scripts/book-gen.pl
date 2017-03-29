@@ -100,7 +100,7 @@ poet = $db{$_}->{name}
 subsubtitle = "/mit/marching-band/misc/music/sheet music/russian-anthem/v2 git:$git"
 EOF
     print << 'EOF';
-title = "Russian Anthem"
+title = "Russia/USSR National Anthem"
 composer = "A.V. Alexandrov"
         } % end header
 EOF

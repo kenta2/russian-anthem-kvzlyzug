@@ -101,7 +101,7 @@ print << 'EOF';
 % 2.16.2 is currently on Athena
 \version "2.16.2"
 \header {
-title = "Russian Anthem"
+title = "Russia/USSR National Anthem"
 composer = "A.V. Alexandrov"
 EOF
 $git=`git describe --always`;
