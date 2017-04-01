@@ -13,6 +13,7 @@ clarinetC
 altosaxA
 altosaxB
 tenorsax
+barisax
 bassoon
 
 trumpetA
