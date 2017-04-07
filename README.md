@@ -6,7 +6,7 @@ A PDF file of parts is available at <http://web.mit.edu/marching-band/www/misc/r
 
 ## Summary
 
-This is the Russian national anthem (hymn), arranged for
+This is sheet music of the Russian national anthem (hymn), arranged for
 wind band.
 This repository accomplishes several goals:
 
