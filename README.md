@@ -92,6 +92,8 @@ arrangement.
 We added a piccolo part from the symphony orchestra
 arrangement.
 
+We created a baritone saxophone part by duplicating the bassoon part.
+
 We split the Cornet 1 part into 2 separate parts.
 
 Transposing from C to B-flat made the Tuba part extremely
