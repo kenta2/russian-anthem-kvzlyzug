@@ -107,7 +107,7 @@ EOF
 $git=`git describe --always`;
 chomp $git;
 print << "EOF";
-subsubtitle = "/mit/marching-band/www/misc/russian-anthem git:$git"
+subsubtitle = "http://github.com/kenta2/russian-anthem  git:$git"
 EOF
     print << 'EOF';
 tagline = ##f
