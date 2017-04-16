@@ -98,7 +98,7 @@ print << 'EOF';
 EOF
     print << "EOF";
 poet = $db{$_}->{name}
-subsubtitle = "http://github.com/kenta2/russian-anthem  git:$git"
+subsubtitle = "http://github.com/kenta2/russian-anthem-kvzlyzug  git:$git"
 EOF
     print << 'EOF';
 title = "Russia/USSR National Anthem"

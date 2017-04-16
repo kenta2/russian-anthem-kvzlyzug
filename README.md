@@ -2,7 +2,7 @@
 
 ## Download PDF
 
-A PDF file of parts is available at <http://web.mit.edu/marching-band/www/misc/russian-anthem/russian-national-anthem.pdf> .
+A PDF file of parts is available at <http://web.mit.edu/marching-band/www/misc/russian-anthem/kvzlyzug/russian-national-anthem.pdf> .
 
 ## Summary
 
@@ -143,3 +143,7 @@ in Russian), see the original site
 conductor's score in B-flat (albeit as PNG images), see
 <http://www.gov.ru/main/symbols/gsrf4_2.html> mentioned
 above.
+
+## Tag
+
+kvzlyzug
