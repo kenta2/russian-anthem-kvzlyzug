@@ -121,7 +121,7 @@ wider than necessary, we applied a hack of hidden
 ## Conductor's score
 
 Only a half-hearted attempt was made to produce [a
-conductor's score](http://web.mit.edu/marching-band/www/misc/russian-anthem/conductor.pdf).
+conductor's score](http://web.mit.edu/marching-band/www/misc/russian-anthem/kvzlyzug/conductor.pdf).
 
 The purpose of the conductor's score was mostly to find
 errors (to be able to spot inconsistencies) as we
