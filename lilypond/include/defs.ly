@@ -1,7 +1,7 @@
 %#(set-default-paper-size "letter")
 piuF = \markup {\italic "piu" \dynamic f }
 invB = { \hideNotes \relative { b'1 } \unHideNotes }
-#(set! paper-alist (cons '("mysize" . (cons (* 8.5 in) (* 6.1 in))) paper-alist))
+#(set! paper-alist (cons '("mysize" . (cons (* 7.5 in) (* 5.5 in))) paper-alist))
     #(set-default-paper-size "mysize")
 invD = {\hideNotes \relative {d,1}\unHideNotes }
 #(define ((alter-lv-tie-curve offsets) grob)
