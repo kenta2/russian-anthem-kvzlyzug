@@ -45,9 +45,9 @@ from the same problems of "everything is in Russian", and
 
 ## Paper size
 
-The printed paper size in the generated PDF is US Letter,
+The printed paper size in the generated PDF is 5.5 inches tall by 7.5 inches wide,
 which can be adjusted by modifying the Lilypond source.  You
-will need to trim the white margins.  You should not
+may need to trim the white margins but should
 need to reduce (with a photocopier, as is common when
 reformatting for marching band flip folders).
 
