@@ -1,0 +1,9 @@
+Internal scripts for hacking.  Normally one only needs to use
+00-make-all.sh.
+
+These scripts are designed to be run from the lilypond/ directory,
+invoking them by relative path ../scripts
+
+book-gen.pl can take a part as an argument just to build one part.
+
+fit-all.sh adjust sizes to the max possible while staying on 1 page.
