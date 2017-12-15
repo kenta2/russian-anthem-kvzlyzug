@@ -152,10 +152,16 @@ print << 'EOF';
             \layout {
 \include "include/layout.ly"
 EOF
-if(defined$db{$_}->{size}){
+if(defined$db{$_}->{size} or defined$db{$_}->{size_override}){
+if(defined$db{$_}->{size_override}){
+    print << "EOF";
+#(layout-set-staff-size $db{$_}->{size_override})
+EOF
+} else {
     print << "EOF";
 #(layout-set-staff-size $db{$_}->{size})
 EOF
+}
 }
 print << 'EOF';
             } % end layout

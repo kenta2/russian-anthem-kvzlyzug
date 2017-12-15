@@ -1,7 +1,8 @@
 % DB name "Timpani"
 % DB nopack 1
-% DB size 24.0
+% DB size 26.0
 % size 26 the whole rests become weird looking
+% DB size_override 24
 timpani =
 { \key c \major \clef "bass"
   \relative c {
